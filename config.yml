@@ -1,0 +1,11 @@
+
+path:
+  schema_prediction: 'schema_prediction.json'
+  schema_training: 'schema_training.json'
+  trainingFiles: 'training_data'
+  validData: 'TrainingDataSet/validTrainingData'
+  invalidData: 'TrainingDataSet/invalidTrainingData'
+
+port: 5000
+
+

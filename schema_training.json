@@ -1,0 +1,18 @@
+{
+  "SampleFileName": "activity_01022022_120000.csv",
+  "prefix": "activity",
+  "LengthOfDateStampInFile": 8,
+  "LengthOfTimeStampInFile": 6,
+  "NumberOfColumns": 9,
+  "ColName": {
+      "Time in seconds":"float64",
+      "Acceleration reading in G for frontal axis":  "float64",
+      "Acceleration reading in G for vertical axis": "float64",
+      "Acceleration reading in G for lateral axis":  "float64",
+      "Id of antenna reading sensor":                "int64",
+      "Received signal strength indicator (RSSI)":   "float64",
+      "Phase":                                       "float64",
+      "Frequency":                                   "float64",
+      "Label":                                       "int64"
+  }
+}

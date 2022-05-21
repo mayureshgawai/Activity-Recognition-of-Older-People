@@ -1,0 +1,85 @@
+2022-05-21 18:18:19.596298:  Entered into Training Validation method::train_val_model()
+2022-05-21 18:18:19.597298:  ::validation_attributes()
+2022-05-21 18:18:19.598297:  LengthOfDateStampInFile:8, LengthOfTimeStampInFile:6, NumberOfColumns:9, pattern:activity_01022022_120000.csv Columns:
+2022-05-21 18:18:19.599297:  Time in seconds
+2022-05-21 18:18:19.599297:  Acceleration reading in G for frontal axis
+2022-05-21 18:18:19.599297:  Acceleration reading in G for vertical axis
+2022-05-21 18:18:19.599297:  Acceleration reading in G for lateral axis
+2022-05-21 18:18:19.600296:  Id of antenna reading sensor
+2022-05-21 18:18:19.600296:  Received signal strength indicator (RSSI)
+2022-05-21 18:18:19.600296:  Phase
+2022-05-21 18:18:19.600296:  Frequency
+2022-05-21 18:18:19.601296:  Label
+2022-05-21 18:19:00.338924:  Entered into Training Validation method::train_val_model()
+2022-05-21 18:19:00.338924:  ::validation_attributes()
+2022-05-21 18:19:00.339926:  LengthOfDateStampInFile:8, LengthOfTimeStampInFile:6, NumberOfColumns:9, pattern:activity_01022022_120000.csv Columns:
+2022-05-21 18:19:00.339926:  Time in seconds
+2022-05-21 18:19:00.339926:  Acceleration reading in G for frontal axis
+2022-05-21 18:19:00.340922:  Acceleration reading in G for vertical axis
+2022-05-21 18:19:00.340922:  Acceleration reading in G for lateral axis
+2022-05-21 18:19:00.340922:  Id of antenna reading sensor
+2022-05-21 18:19:00.340922:  Received signal strength indicator (RSSI)
+2022-05-21 18:19:00.341925:  Phase
+2022-05-21 18:19:00.341925:  Frequency
+2022-05-21 18:19:00.341925:  Label
+2022-05-21 19:01:59.981501:  Entered into Training Validation method::train_val_model()
+2022-05-21 19:01:59.982499:  ::validation_attributes()
+2022-05-21 19:01:59.982499:  LengthOfDateStampInFile:8, LengthOfTimeStampInFile:6, NumberOfColumns:9, pattern:activity_01022022_120000.csv Columns:
+2022-05-21 19:01:59.983496:  Time in seconds
+2022-05-21 19:01:59.983496:  Acceleration reading in G for frontal axis
+2022-05-21 19:01:59.983496:  Acceleration reading in G for vertical axis
+2022-05-21 19:01:59.983496:  Acceleration reading in G for lateral axis
+2022-05-21 19:01:59.984496:  Id of antenna reading sensor
+2022-05-21 19:01:59.984496:  Received signal strength indicator (RSSI)
+2022-05-21 19:01:59.984496:  Phase
+2022-05-21 19:01:59.984496:  Frequency
+2022-05-21 19:01:59.985500:  Label
+2022-05-21 19:05:46.417260:  Entered into Training Validation method::train_val_model()
+2022-05-21 19:05:46.417260:  ::validation_attributes()
+2022-05-21 19:05:46.418264:  LengthOfDateStampInFile:8, LengthOfTimeStampInFile:6, NumberOfColumns:9, pattern:activity_01022022_120000.csv Columns:
+2022-05-21 19:05:46.418264:  Time in seconds
+2022-05-21 19:05:46.418264:  Acceleration reading in G for frontal axis
+2022-05-21 19:05:46.419263:  Acceleration reading in G for vertical axis
+2022-05-21 19:05:46.419263:  Acceleration reading in G for lateral axis
+2022-05-21 19:05:46.419263:  Id of antenna reading sensor
+2022-05-21 19:05:46.419263:  Received signal strength indicator (RSSI)
+2022-05-21 19:05:46.420265:  Phase
+2022-05-21 19:05:46.420265:  Frequency
+2022-05-21 19:05:46.420265:  Label
+2022-05-21 19:09:51.153129:  Entered into Training Validation method::train_val_model()
+2022-05-21 19:09:51.153129:  ::validation_attributes()
+2022-05-21 19:09:51.154139:  LengthOfDateStampInFile:8, LengthOfTimeStampInFile:6, NumberOfColumns:9, pattern:activity_01022022_120000.csv Columns:
+2022-05-21 19:09:51.154139:  Time in seconds
+2022-05-21 19:09:51.155130:  Acceleration reading in G for frontal axis
+2022-05-21 19:09:51.155130:  Acceleration reading in G for vertical axis
+2022-05-21 19:09:51.155130:  Acceleration reading in G for lateral axis
+2022-05-21 19:09:51.155130:  Id of antenna reading sensor
+2022-05-21 19:09:51.156133:  Received signal strength indicator (RSSI)
+2022-05-21 19:09:51.157139:  Phase
+2022-05-21 19:09:51.157139:  Frequency
+2022-05-21 19:09:51.158140:  Label
+2022-05-21 19:11:37.280035:  Entered into Training Validation method::train_val_model()
+2022-05-21 19:11:37.281043:  ::validation_attributes()
+2022-05-21 19:11:37.281043:  LengthOfDateStampInFile:8, LengthOfTimeStampInFile:6, NumberOfColumns:9, pattern:activity_01022022_120000.csv Columns:
+2022-05-21 19:11:37.282041:  Time in seconds
+2022-05-21 19:11:37.283040:  Acceleration reading in G for frontal axis
+2022-05-21 19:11:37.283040:  Acceleration reading in G for vertical axis
+2022-05-21 19:11:37.283040:  Acceleration reading in G for lateral axis
+2022-05-21 19:11:37.284038:  Id of antenna reading sensor
+2022-05-21 19:11:37.284038:  Received signal strength indicator (RSSI)
+2022-05-21 19:11:37.284038:  Phase
+2022-05-21 19:11:37.284038:  Frequency
+2022-05-21 19:11:37.285042:  Label
+2022-05-21 20:14:47.493786:  Entered into Training Validation method::train_val_model()
+2022-05-21 20:14:47.494790:  ::validation_attributes()
+2022-05-21 20:14:47.495788:  LengthOfDateStampInFile:8, LengthOfTimeStampInFile:6, NumberOfColumns:9, pattern:activity_01022022_120000.csv Columns:
+2022-05-21 20:14:47.496786:  Time in seconds
+2022-05-21 20:14:47.497801:  Acceleration reading in G for frontal axis
+2022-05-21 20:14:47.497801:  Acceleration reading in G for vertical axis
+2022-05-21 20:14:47.498785:  Acceleration reading in G for lateral axis
+2022-05-21 20:14:47.498785:  Id of antenna reading sensor
+2022-05-21 20:14:47.499783:  Received signal strength indicator (RSSI)
+2022-05-21 20:14:47.499783:  Phase
+2022-05-21 20:14:47.500786:  Frequency
+2022-05-21 20:14:47.500786:  Label
+2022-05-21 20:14:58.544389:  activity_21052022_052220.csv is valid and moved into validTrainingData

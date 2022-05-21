@@ -1,0 +1,5 @@
+setup.py
+Activity_Recognition_Older_People.egg-info/PKG-INFO
+Activity_Recognition_Older_People.egg-info/SOURCES.txt
+Activity_Recognition_Older_People.egg-info/dependency_links.txt
+Activity_Recognition_Older_People.egg-info/top_level.txt
