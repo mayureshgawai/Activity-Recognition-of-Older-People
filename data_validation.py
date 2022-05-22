@@ -16,6 +16,8 @@ class Data_Validation:
         self.parsed_yaml = yaml.load(open('config.yml'), Loader=yaml.FullLoader)
 
     def validation_attributes(self):
+        self.logger.log(self.file_object, "Attributes validation Started")
+
         '''
             Method Name: validate_attributes()
            Description:  method will check schema and validate if the data recieved is appropriate for training or not
@@ -53,6 +55,8 @@ class Data_Validation:
 
 
     def check_file_name(self, regex, LengthOfDateStampInFile, LengthOfTimeStampInFile, prefix):
+
+        self.logger.log(self.file_object, "File name validation according to DSA conventions is Started")
 
         '''
             Method: check_file_name()
@@ -106,8 +110,11 @@ class Data_Validation:
             '''
         for files in filelist:
             os.remove(path+files)
+        self.logger.log(self.file_object, "Deleted previous training files")
 
     def column_length_validation(self):
+
+        self.logger.log(self.file_object,"Columns length validation Started")
 
         '''
             Method Name: column_length_validation()
@@ -139,6 +146,7 @@ class Data_Validation:
                     for col in columns.index:
                         sc_columns[col]
                         if(str(df[col].dtypes) == sc_columns[col]):
+                            # If counter reaches to shape[1], that means we ahve gone through all the columns and now it should be moved to valid folder
                             if(counter == df.shape[1]):
                                 shutil.copy(str(trainPath) + "/" + filename, 'TrainingDataSet/validTrainingData')
                                 self.logger.log(self.file_object,filename + " is valid for column length and moved into validTrainingData")
@@ -160,3 +168,43 @@ class Data_Validation:
             self.logger.log(self.file_object, str(e))
         except Exception as e:
             self.logger.log(self.file_object, str(e.args))
+
+
+    def validate_missing_values_in_columnn(self):
+
+        '''
+            Method Name: validate_missing_column_length()
+            Description: Checks for columns if they are not filled with all Null values in it. If there are columnns
+                         then move it to the invalid one.
+            param:
+            return:
+        '''
+
+        try:
+            trainPath = self.parsed_yaml['path']['validData']
+            files = [f for f in os.listdir(trainPath)]
+            schemaPath = self.parsed_yaml['path']['schema_training']
+
+            data = json.load(open(str(schemaPath)))
+
+            if len(files) == 0:
+                raise EmptyDirectoryError()
+
+            for filename in files:
+
+                df = pd.read_csv(trainPath + "/" + filename)
+                cols = df.columns
+
+                for col in cols:
+                    if((len(df[col]) - df[col].count()) == len(df[col])):
+
+                        shutil.copy(str(trainPath) + filename, 'TrainingDataSet/invalidTrainingData')
+                        self.logger.log(self.file_object,filename + " is invalid for column and moved into invalidTrainingData")
+                        break
+
+        except EmptyDirectoryError as e:
+            self.logger.log(self.file_object, str(e))
+        except Exception as e:
+            self.logger.log(self.file_object, str(e))
+        except KeyError as e:
+            self.logger.log(self.file_object, str(e))

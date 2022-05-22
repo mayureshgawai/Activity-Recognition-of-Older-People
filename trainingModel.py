@@ -19,7 +19,7 @@ class TrainValModel:
             training datatset to the training phase'''
 
         try:
-            self.logger.log(self.file_object, "Entered into Training Validation method::train_val_model()")
+            self.logger.log(self.file_object, "train_val_model()::Entered into Training Validation method")
             print("Entered into training method")
             # Getting schema details
             LengthOfDateStampInFile, LengthOfTimeStampInFile, NumberOfColumns, prefix, colNames = self.valid_data.validation_attributes()
@@ -29,6 +29,14 @@ class TrainValModel:
             self.valid_data.check_file_name(regex, LengthOfDateStampInFile, LengthOfTimeStampInFile, prefix)
             # Check column numbers, name and datatype
             self.valid_data.column_length_validation()
+            self.logger.log(self.file_object, "train_val_model():column_length_validation()::Validation of Column length, name and dtype is done!")
+            # If there are columns paresent in dataset with no values, remove it
+            self.valid_data.validate_missing_values_in_columnn()
+            self.logger.log(self.file_object,"train_val_model():validate_missing_values_in_columnn()::Missing whole column values validation performed!")
+
+            self.logger.log(self.file_object, "Processing data...")
+
+
 
 
         except Exception as e:
