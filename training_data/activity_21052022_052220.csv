@@ -1,3 +1,4 @@
+Time in seconds,Acceleration reading in G for frontal axis,Acceleration reading in G for vertical axis,Acceleration reading in G for lateral axis,Id of antenna reading sensor,Received signal strength indicator (RSSI),Phase,Frequency,Label
 0,0.27203,1.0082,-0.082102,1,-63.5,2.4252,924.25,1
 0.5,0.27203,1.0082,-0.082102,1,-63,4.7369,921.75,1
 1.5,0.44791,0.91636,-0.013684,1,-63.5,3.0311,923.75,1

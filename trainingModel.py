@@ -27,7 +27,7 @@ class TrainValModel:
             regex = self.valid_data.fileVal_regex()
             # Check the file name for datestamp, timestamp and prefix
             self.valid_data.check_file_name(regex, LengthOfDateStampInFile, LengthOfTimeStampInFile, prefix)
-            # Check column number length
+            # Check column numbers, name and datatype
             self.valid_data.column_length_validation()
 
 

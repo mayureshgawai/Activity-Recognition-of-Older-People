@@ -118,7 +118,7 @@ class Data_Validation:
 
 
         try:
-            trainPath = self.parsed_yaml['validData']
+            trainPath = self.parsed_yaml['path']['validData']
             files = [f for f in os.listdir(trainPath)]
             schemaPath = self.parsed_yaml['path']['schema_training']
 
