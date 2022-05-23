@@ -23,6 +23,16 @@ class DBOperation:
 
 
     def establish_connection(self, host_name, user, password):
+        '''
+            Method name: establish_connection()
+            Description: Establishing mysql connection
+            :param host_name:
+            :param user:
+            :param password:
+            :return:
+        '''
+
+
         try:
             mydb = connection.connect(host=host_name, user=user, passwd=password, use_pure=True)
             return mydb
@@ -32,6 +42,13 @@ class DBOperation:
 
 
     def select_and_create_input(self, table_name):
+        '''
+            Method name: select_and_create_input()
+            Description: Selects all the rows from database table and creates final input csv
+            :param table_name:
+            :return:
+        '''
+
 
         try:
             inputPath = self.parsed_yaml['path']['inputs']
@@ -49,6 +66,12 @@ class DBOperation:
 
 
     def create_database(self, name):
+        '''
+            Method name: create_database()
+            Description: Creating database with respect to db name
+            :param name:
+            :return:
+        '''
 
         try:
             dbname = self.parsed_yaml['dbconnect']['database_name']
@@ -62,6 +85,15 @@ class DBOperation:
             self.logger.log(self.file_object, "create_database()::Error occurred in creating database. "+str(e))
 
     def create_table(self, dbname, tableName):
+
+        '''
+            Method name: create_table()
+            Description: Creating table with respect to table name
+            :param dbname:
+            :param tableName:
+            :return:
+        '''
+
         try:
             schema = self.parsed_yaml['path']['schema_training']
             # columns = json.load(open('./'+str(schema)))
@@ -80,6 +112,11 @@ class DBOperation:
 
 
     def insertIntoDB(self):
+        '''
+            Method name: insertIntoDB()
+            Description: Inserting values into table
+            :return:
+        '''
 
         try:
             trainPath = self.parsed_yaml['path']['validData']
