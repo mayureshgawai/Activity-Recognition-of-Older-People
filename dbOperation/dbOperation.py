@@ -32,10 +32,11 @@ class DBOperation:
             :return:
         '''
 
-
+        self.logger.log(self.file_object, "establish_connection()::Establishing connection")
         try:
             mydb = connection.connect(host=host_name, user=user, passwd=password, use_pure=True)
             return mydb
+            self.logger.log(self.file_object, "establish_connection()::Established connection successfully")
         except Exception as e:
             self.logger.log(self.file_object,"create_connection()::Error occured during establishing connection, " + str(e))
             return 0
@@ -49,7 +50,7 @@ class DBOperation:
             :return:
         '''
 
-
+        self.logger.log(self.file_object, "select_and_create_input()::csv creation started")
         try:
             inputPath = self.parsed_yaml['path']['inputs']
             dbname = self.parsed_yaml['dbconnect']['database_name']
@@ -59,7 +60,7 @@ class DBOperation:
             # cursor.execute(query)
             objects = pd.read_sql(query, mydb)
             objects.to_csv(str(inputPath)+"/"+"InputFile.csv")
-
+            self.logger.log(self.file_object, "select_and_create_input()::Created Final input file Successfully")
         except Exception as e:
             mydb.close()
             self.logger.log(self.file_object, "select_and_create_input()::Error occured in execution, "+str(e))
@@ -74,6 +75,7 @@ class DBOperation:
         '''
 
         try:
+            self.logger.log(self.file_object, "create_database()::Create database")
             dbname = self.parsed_yaml['dbconnect']['database_name']
 
             query = 'create database IF NOT EXISTS '+str(dbname)
@@ -81,6 +83,7 @@ class DBOperation:
             mydb = self.establish_connection(self.host, self.user, self.passwd)
             cursor = mydb.cursor()
             cursor.execute(query)
+            self.logger.log(self.file_object, "create_database()::Created database Successfully")
         except Exception as e:
             self.logger.log(self.file_object, "create_database()::Error occurred in creating database. "+str(e))
 
@@ -95,6 +98,7 @@ class DBOperation:
         '''
 
         try:
+            self.logger.log(self.file_object, "create_database()::Create table")
             schema = self.parsed_yaml['path']['schema_training']
             # columns = json.load(open('./'+str(schema)))
             mydb = self.establish_connection(self.host, self.user, self.passwd)
@@ -106,7 +110,7 @@ class DBOperation:
                                                             '`Phase` float, `Frequency` float4, `Label` int)'
             cursor = mydb.cursor()
             cursor.execute(query)
-
+            self.logger.log(self.file_object, "create_database()::Created table Successfully")
         except Exception as e:
             self.logger.log(self.file_object, "create_database()::Error occurred in creating table. "+str(e))
 
@@ -119,6 +123,7 @@ class DBOperation:
         '''
 
         try:
+            self.logger.log(self.file_object, "insertIntoDB()::Insert values in database")
             trainPath = self.parsed_yaml['path']['validData']
             files = [f for f in os.listdir(trainPath)]
             tblname = self.parsed_yaml['dbconnect']['table_name']
@@ -140,6 +145,7 @@ class DBOperation:
                         except Exception as e:
                             self.logger.log(self.file_object,
                                             "insertIntoDB()::Error occurred in inserting into table traversing. " + str(e))
+            self.logger.log(self.file_object, "insertIntoDB()::Inserted values in database Successfully")
         except Exception as e:
             self.logger.log(self.file_object, "insertIntoDB()::Error occurred in inserting into table. " + str(e))
 
