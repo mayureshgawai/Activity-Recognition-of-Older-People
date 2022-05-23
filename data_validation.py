@@ -70,12 +70,11 @@ class Data_Validation:
             trainPath = self.parsed_yaml['path']['trainingFiles']
             validData = self.parsed_yaml['path']['validData']
             invalidData = self.parsed_yaml['path']['invalidData']
-
-
-            self.deleteTrainingData([f for f in os.listdir(validData)], validData)
-            self.deleteTrainingData([f for f in os.listdir(invalidData)], invalidData)
-
             files = [f for f in os.listdir(trainPath)]
+
+            self.deleteTrainingData([vf for vf in os.listdir(validData)], validData)
+            self.deleteTrainingData([ivf for ivf in os.listdir(validData)], invalidData)
+
             if len(files) == 0:
                 raise EmptyDirectoryError()
 
@@ -108,9 +107,15 @@ class Data_Validation:
             Description: Deleting all the previously available file to work on new data
             params: filelist, path:
             '''
-        for files in filelist:
-            os.remove(path+files)
-        self.logger.log(self.file_object, "Deleted previous training files")
+        try:
+            if len(filelist)==0:
+                self.logger.log(self.file_object, "deleteTrainingData()::No files to be deleted")
+                return
+            for files in filelist:
+                os.remove(path+"/"+files)
+            self.logger.log(self.file_object, "Deleted previous training files")
+        except Exception as e:
+            self.logger.log(self.file_object, str(e))
 
     def column_length_validation(self):
 
