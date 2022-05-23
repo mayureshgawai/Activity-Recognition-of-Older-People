@@ -304,3 +304,21 @@
 2022-05-23 14:36:53.353454:  train_val_model()::Entered into Validation method
 2022-05-23 14:36:53.353454:  train_val_model():validate_missing_values_in_columnn()::Missing whole column values validation performed!
 2022-05-23 14:36:53.354446:  Data Validation is done
+2022-05-23 16:50:33.174842:  train_val_model()::Entered into Validation method
+2022-05-23 16:50:35.497422:  train_val_model():column_length_validation()::Validation of Column length, name and dtype is done!
+2022-05-23 16:50:36.263404:  train_val_model():validate_missing_values_in_columnn()::Missing whole column values validation performed!
+2022-05-23 16:50:37.593447:  Data Validation is done
+2022-05-23 16:52:06.200420:  train_val_model()::Entered into Validation method
+2022-05-23 16:52:07.506686:  train_val_model():column_length_validation()::Validation of Column length, name and dtype is done!
+2022-05-23 16:52:07.989370:  train_val_model():validate_missing_values_in_columnn()::Missing whole column values validation performed!
+2022-05-23 16:52:08.499704:  Data Validation is done
+2022-05-23 18:26:53.758704:  train_val_data()::DB operation starts.
+2022-05-23 18:30:56.892879:  train_val_data()::DB operation starts.
+2022-05-23 18:33:21.041676:  train_val_data()::DB operation starts.
+2022-05-23 18:33:21.042675:  train_val_data()::DB operation starts.
+2022-05-23 18:35:03.237982:  train_val_data()::DB operation starts.
+2022-05-23 18:36:28.413564:  train_val_data()::DB operation starts.
+2022-05-23 18:40:02.162283:  train_val_data()::DB operation starts.
+2022-05-23 18:56:30.675371:  train_val_data()::DB operation starts.
+2022-05-23 18:59:36.596947:  train_val_data()::DB operation starts.
+2022-05-23 19:01:17.257995:  train_val_data()::DB operation starts.

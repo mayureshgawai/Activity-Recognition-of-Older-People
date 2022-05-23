@@ -9,8 +9,7 @@ import yaml
 import pandas as pd
 
 class Data_Validation:
-    def __init__(self, path):
-        self.path = path
+    def __init__(self):
         self.file_object = "logs/training_val_logs/TrainingAndValidationLogs.txt"
         self.logger = logger.Logger()
         self.parsed_yaml = yaml.load(open('config.yml'), Loader=yaml.FullLoader)

@@ -6,7 +6,17 @@ path:
   validData: 'TrainingDataSet/validTrainingData'
   invalidData: 'TrainingDataSet/invalidTrainingData'
   nullValuesData: 'TrainingDataSet/NullRemovalFiles'
+  inputs: './InputFile'
 
 port: 5000
+
+dbconnect:
+  database_name: 'Activity'
+  table_name: 'activity_recognition'
+  host: 'localhost'
+  user: 'root'
+  password: 'root'
+
+
 
 
