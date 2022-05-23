@@ -1,0 +1,30 @@
+2022-05-23 11:15:07.984983:  isNullPresent()::Checking if null values are present
+2022-05-23 11:19:09.859386:  isNullPresent()::Checking if null values are present
+2022-05-23 11:23:48.244703:  isNullPresent()::Checking if null values are present
+2022-05-23 11:31:18.324994:  isNullPresent()::Checking if null values are present
+2022-05-23 12:45:20.289759:  isNullPresent()::Checking if null values are present
+2022-05-23 12:50:03.120719:  isNullPresent()::Checking if null values are present
+2022-05-23 12:50:23.842943:  isNullPresent()::File 'activity_22052022_052220.csv' having null values in it. Moved to NullRemovalFiles Directory
+2022-05-23 13:42:55.084282:  isNullPresent()::Checking if null values are present
+2022-05-23 13:43:08.698900:  impute_missing_values():: Entered into imputing method
+2022-05-23 13:45:01.620604:  isNullPresent()::Checking if null values are present
+2022-05-23 13:45:04.431692:  impute_missing_values():: Entered into imputing method
+2022-05-23 13:49:21.829263:  isNullPresent()::Checking if null values are present
+2022-05-23 13:49:25.714103:  impute_missing_values():: Entered into imputing method
+2022-05-23 14:21:56.922949:  isNullPresent()::Checking if null values are present
+2022-05-23 14:22:07.625477:  Deleted previous null datasets
+2022-05-23 14:27:15.410204:  isNullPresent()::Checking if null values are present
+2022-05-23 14:27:29.117272:  deleteNullDataset()::No files to be deleted
+2022-05-23 14:28:25.862427:  isNullPresent()::Checking if null values are present
+2022-05-23 14:28:25.863427:  Deleted previous null datasets
+2022-05-23 14:28:25.863427:  The directory have no Files in it.
+2022-05-23 14:28:31.549308:  impute_missing_values():: Entered into imputing method
+2022-05-23 14:31:35.919695:  isNullPresent()::Checking if null values are present
+2022-05-23 14:31:35.920695:  deleteNullDataset()::No files to be deleted
+2022-05-23 14:31:35.920695:  The directory have no Files in it.
+2022-05-23 14:31:40.144443:  impute_missing_values():: Entered into imputing method
+2022-05-23 14:33:22.515519:  isNullPresent()::Checking if null values are present
+2022-05-23 14:33:22.517521:  Deleted previous null datasets
+2022-05-23 14:33:22.518519:  The directory have no Files in it.
+2022-05-23 14:33:26.066739:  impute_missing_values():: Entered into imputing method
+2022-05-23 14:36:55.519860:  impute_missing_values():: Entered into imputing method
