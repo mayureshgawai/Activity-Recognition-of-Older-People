@@ -9,6 +9,7 @@ import yaml
 from application_logging import logger
 from trainingModel import TrainValModel
 
+
 os.putenv('LANG', 'en_US.UTF-8')
 os.putenv('LC_ALL', 'en_US.UTF-8')
 
@@ -28,7 +29,7 @@ def train_model():
         path = parsed_yaml["path"]['trainingFiles']
 
         trainValModel = TrainValModel(path)
-        trainValModel.train_val_model()
+        trainValModel.train_val_data()
         # file_obj.close()
         return "Hii"
 

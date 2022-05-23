@@ -5,6 +5,7 @@ path:
   trainingFiles: 'training_data'
   validData: 'TrainingDataSet/validTrainingData'
   invalidData: 'TrainingDataSet/invalidTrainingData'
+  nullValuesData: 'TrainingDataSet/NullRemovalFiles'
 
 port: 5000
 

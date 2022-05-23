@@ -148,7 +148,7 @@ class Data_Validation:
                         if(str(df[col].dtypes) == sc_columns[col]):
                             # If counter reaches to shape[1], that means we ahve gone through all the columns and now it should be moved to valid folder
                             if(counter == df.shape[1]):
-                                shutil.copy(str(trainPath) + "/" + filename, 'TrainingDataSet/validTrainingData')
+                                shutil.move(str(trainPath) + "/" + filename, 'TrainingDataSet/validTrainingData')
                                 self.logger.log(self.file_object,filename + " is valid for column length and moved into validTrainingData")
                             else:
                                 continue
@@ -157,7 +157,6 @@ class Data_Validation:
                             shutil.copy(str(trainPath) + filename, 'TrainingDataSet/invalidTrainingData')
                             self.logger.log(self.file_object,filename + " is invalid for column and moved into invalidTrainingData")
                             break
-
                 else:
                     shutil.copy(str(trainPath) + filename, 'TrainingDataSet/invalidTrainingData')
                     self.logger.log(self.file_object, filename + " is invalid for column length and moved into invalidTrainingData")
