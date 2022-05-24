@@ -104,3 +104,15 @@ class Processor:
 
         except Exception as e:
             self.logger.log(self.file_object, str(e))
+
+    # def zeroStdColumns(self):
+    #     trainPath = self.parsed_yaml['path']['validData']
+    #     files = [f for f in os.listdir(trainPath)]
+    #
+    #     if len(files) == 0:
+    #         raise EmptyDirectoryError()
+    #
+    #     for file in files:
+    #         df = pd.read_csv(trainPath+"/"+file)
+    #         for col in df.columns:
+    #             if(np.std(df[col])==0):

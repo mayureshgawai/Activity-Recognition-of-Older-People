@@ -53,6 +53,11 @@ class DBOperation:
         self.logger.log(self.file_object, "select_and_create_input()::csv creation started")
         try:
             inputPath = self.parsed_yaml['path']['inputs']
+
+            # Removing previously existing files
+            for file in os.listdir(inputPath):
+                os.remove(inputPath+"/"+file)
+
             dbname = self.parsed_yaml['dbconnect']['database_name']
             mydb = self.establish_connection(self.host, self.user, self.passwd)
             query = 'select * from '+dbname+"."+str(table_name)

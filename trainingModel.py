@@ -1,9 +1,15 @@
+import os
+
+import pandas as pd
+
 from data_validation import Data_Validation
 from application_logging import logger
 import yaml
 import json
 from data_processing.processor import Processor
 from dbOperation.dbOperation import DBOperation
+from data_processing.clustering import Clustering
+from sklearn.model_selection import train_test_split
 
 class TrainValModel:
     def __init__(self, path):
@@ -13,6 +19,7 @@ class TrainValModel:
         self.parsed_yaml = yaml.load(open('config.yml'), Loader=yaml.FullLoader)
         self.processor = Processor()
         self.dbOperation = DBOperation()
+        self.clustering = Clustering()
 
 
     def train_val_data(self):
@@ -55,6 +62,19 @@ class TrainValModel:
             self.dbOperation.insertIntoDB()
             # It will select values from table and create final input file
             self.dbOperation.select_and_create_input(tblname)
+            self.logger.log(self.file_object, "train_val_data()::DB operations Completed.")
+
+            input = self.parsed_yaml['path']['inputs']
+
+            # self.clustering.elbow_plot()
+            cluster_data = self.clustering.clusterDataset()
+            file = os.listdir(input)
+            data = pd.read_csv(input+"/"+file[0])
+            data['cluster'] = cluster_data
+
+
+
+
 
 
         except Exception as e:
