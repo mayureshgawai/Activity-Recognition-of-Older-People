@@ -322,3 +322,18 @@
 2022-05-23 18:56:30.675371:  train_val_data()::DB operation starts.
 2022-05-23 18:59:36.596947:  train_val_data()::DB operation starts.
 2022-05-23 19:01:17.257995:  train_val_data()::DB operation starts.
+2022-05-24 17:32:30.424007:  get_best_params_xgboost:: Error occcured while finding best params for training data for xgboot, Invalid classes inferred from unique values of `y`.  Expected: [0 1 2 3], got [1 2 3 4]
+2022-05-24 17:42:04.479028:  get_best_params_xgboost:: Error occcured while finding best params for training data for xgboot, Invalid classes inferred from unique values of `y`.  Expected: [0 1 2 3], got [1 2 3 4]
+2022-05-24 17:42:04.480019:  get_best_model::Error Occurred in process of getting best model, 'NoneType' object has no attribute 'predict'
+2022-05-24 17:44:37.414615:  get_best_params_xgboost:: Error occcured while finding best params for training data for xgboot, Invalid classes inferred from unique values of `y`.  Expected: [0 1 2 3], got [1 2 3 4]
+2022-05-24 17:44:37.415627:  get_best_model::Error Occurred in process of getting best model, 'NoneType' object has no attribute 'predict'
+2022-05-24 17:53:05.514595:  get_best_params_xgboost:: Error occcured while finding best params for training data for xgboot, Invalid classes inferred from unique values of `y`.  Expected: [0 1 2 3], got [1 2 3 4]
+2022-05-26 13:02:33.716475:  get_best_model:: AUC Score: 0.9731903702735738
+2022-05-26 13:08:33.458952:  get_best_model:: AUC Score: 0.9726989733913947
+2022-05-26 13:13:15.121214:  get_best_model:: AUC Score: 0.9708537704581199
+2022-05-26 13:21:36.528888:  get_best_model:: AUC Score: 0.9719687141666131
+2022-05-26 13:33:13.666894:  get_best_model:: AUC Score: 0.9714614979288725
+2022-05-26 13:56:50.545457:  get_best_model:: AUC Score: 0.9704360671679679
+2022-05-26 13:57:48.416064:  get_best_model:: AUC Score: 0.9694346374789499
+2022-05-26 13:58:39.541385:  get_best_model:: AUC Score: 0.948176962841784
+2022-05-26 13:59:09.780204:  get_best_model:: AUC Score: 0.7355242566510172
