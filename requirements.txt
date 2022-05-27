@@ -13,7 +13,8 @@ jsonschema==3.2.0
 kiwisolver==1.1.0
 kneed==0.5.1
 MarkupSafe==1.1.1
-matplotlib==3.1.2
+mysql-connector-c==6.1.11
+mysql-connector-python==8.0.18
 more-itertools==8.1.0
 gitdb==4.0.9
 GitPython==3.1.27
