@@ -8,7 +8,7 @@ from flask_cors import CORS, cross_origin
 import yaml
 from application_logging import logger
 from trainingModel import TrainValModel
-
+from predictionModel import PredictModel
 
 os.putenv('LANG', 'en_US.UTF-8')
 os.putenv('LC_ALL', 'en_US.UTF-8')
@@ -19,6 +19,17 @@ app = Flask(__name__)
 @cross_origin()
 def index():
     return render_template('index.html')
+
+
+@app.route('/predict', methods=['GET', 'POST'])
+@cross_origin()
+def predict_model():
+    try:
+        predmodel = PredictModel()
+        predmodel.prediction_model()
+
+    except Exception as e:
+        pass
 
 @app.route('/train', methods=['GET', 'POST'])
 @cross_origin()

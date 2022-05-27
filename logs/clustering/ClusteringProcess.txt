@@ -1,0 +1,137 @@
+2022-05-24 11:42:35.781786:  elbow_plot()::Elbow plot creation started
+2022-05-24 11:46:46.973994:  elbow_plot()::Elbow plot creation started
+2022-05-24 11:53:04.254963:  elbow_plot()::Elbow plot creation started
+2022-05-24 11:55:22.569281:  elbow_plot()::Elbow plot creation started
+2022-05-24 13:57:24.305065:  elbow_plot()::Elbow plot creation started
+2022-05-24 13:59:01.559064:  elbow_plot()::Elbow plot creation started
+2022-05-24 14:05:09.208915:  elbow_plot()::Elbow plot creation started
+2022-05-24 14:09:41.561920:  elbow_plot()::Elbow plot creation started
+2022-05-24 14:12:55.204651:  elbow_plot()::Elbow plot creation started
+2022-05-24 14:14:42.884947:  elbow_plot()::Elbow plot creation started
+2022-05-24 14:19:23.219001:  elbow_plot()::Best cluster value for data is: 4
+2022-05-24 14:20:05.004055:  elbow_plot()::Elbow plot creation started
+2022-05-24 14:21:34.471151:  elbow_plot()::Best cluster value for data is: 4
+2022-05-24 14:24:05.292639:  clusterDataset()::Save the Kmeans model created.
+2022-05-24 14:27:43.898580:  elbow_plot()::Elbow plot creation started
+2022-05-24 14:28:54.044328:  elbow_plot()::Best cluster value for data is: 4
+2022-05-24 14:29:20.593732:  clusterDataset()::Save the Kmeans model created.
+2022-05-24 14:31:55.058113:  elbow_plot()::Elbow plot creation started
+2022-05-24 14:33:04.092028:  elbow_plot()::Best cluster value for data is: 4
+2022-05-24 14:34:42.749987:  clusterDataset()::Save the Kmeans model created.
+2022-05-24 14:35:22.448621:  clusterDataset()::KMeans model saved successfully.
+2022-05-24 17:03:07.014865:  elbow_plot()::Elbow plot creation started
+2022-05-24 17:04:14.961842:  elbow_plot()::Best cluster value for data is: 4
+2022-05-24 17:04:24.153318:  clusterDataset()::Save the Kmeans model created.
+2022-05-24 17:04:47.154267:  clusterDataset()::KMeans model saved successfully.
+2022-05-24 17:09:18.040524:  elbow_plot()::Elbow plot creation started
+2022-05-24 17:10:26.646391:  elbow_plot()::Best cluster value for data is: 4
+2022-05-24 17:12:53.771363:  clusterDataset()::Save the Kmeans model created.
+2022-05-24 17:13:47.686958:  clusterDataset()::KMeans model saved successfully.
+2022-05-24 17:15:27.367984:  elbow_plot()::Elbow plot creation started
+2022-05-24 17:16:30.656622:  elbow_plot()::Best cluster value for data is: 4
+2022-05-24 17:19:44.982977:  clusterDataset()::Save the Kmeans model created.
+2022-05-24 17:19:47.557008:  clusterDataset()::KMeans model saved successfully.
+2022-05-24 17:29:06.519266:  elbow_plot()::Elbow plot creation started
+2022-05-24 17:30:13.425895:  elbow_plot()::Best cluster value for data is: 4
+2022-05-24 17:32:11.747801:  clusterDataset()::Save the Kmeans model created.
+2022-05-24 17:32:14.642949:  clusterDataset()::KMeans model saved successfully.
+2022-05-24 17:33:41.516820:  elbow_plot()::Elbow plot creation started
+2022-05-24 17:34:48.615085:  elbow_plot()::Best cluster value for data is: 4
+2022-05-24 17:34:53.342170:  clusterDataset()::Save the Kmeans model created.
+2022-05-24 17:34:54.706421:  clusterDataset()::KMeans model saved successfully.
+2022-05-24 17:37:48.092616:  elbow_plot()::Elbow plot creation started
+2022-05-24 17:38:54.772486:  elbow_plot()::Best cluster value for data is: 4
+2022-05-24 17:39:00.796030:  clusterDataset()::Save the Kmeans model created.
+2022-05-24 17:39:05.672892:  clusterDataset()::KMeans model saved successfully.
+2022-05-24 17:42:37.948983:  elbow_plot()::Elbow plot creation started
+2022-05-24 17:43:44.454024:  elbow_plot()::Best cluster value for data is: 4
+2022-05-24 17:43:45.726024:  clusterDataset()::Save the Kmeans model created.
+2022-05-24 17:43:45.729024:  clusterDataset()::KMeans model saved successfully.
+2022-05-24 17:45:47.823788:  elbow_plot()::Elbow plot creation started
+2022-05-24 17:46:53.669724:  elbow_plot()::Best cluster value for data is: 4
+2022-05-24 17:46:54.855724:  clusterDataset()::Save the Kmeans model created.
+2022-05-24 17:46:54.859727:  clusterDataset()::KMeans model saved successfully.
+2022-05-24 17:55:14.441893:  elbow_plot()::Elbow plot creation started
+2022-05-24 17:56:36.283627:  elbow_plot()::Best cluster value for data is: 4
+2022-05-24 17:56:37.903979:  clusterDataset()::Save the Kmeans model created.
+2022-05-24 17:56:37.918988:  clusterDataset()::KMeans model saved successfully.
+2022-05-24 18:46:13.172791:  elbow_plot()::Elbow plot creation started
+2022-05-24 18:47:17.408601:  elbow_plot()::Best cluster value for data is: 4
+2022-05-24 18:47:18.549600:  clusterDataset()::Save the Kmeans model created.
+2022-05-24 18:47:18.552602:  clusterDataset()::KMeans model saved successfully.
+2022-05-26 10:40:21.902673:  elbow_plot()::Elbow plot creation started
+2022-05-26 10:41:25.455792:  elbow_plot()::Best cluster value for data is: 4
+2022-05-26 10:41:26.635792:  clusterDataset()::Save the Kmeans model created.
+2022-05-26 10:41:26.640792:  clusterDataset()::KMeans model saved successfully.
+2022-05-26 10:54:41.522782:  elbow_plot()::Elbow plot creation started
+2022-05-26 10:55:41.640770:  elbow_plot()::Best cluster value for data is: 4
+2022-05-26 10:55:42.749770:  clusterDataset()::Save the Kmeans model created.
+2022-05-26 10:55:42.752770:  clusterDataset()::KMeans model saved successfully.
+2022-05-26 11:01:24.655129:  elbow_plot()::Elbow plot creation started
+2022-05-26 11:02:31.493454:  elbow_plot()::Best cluster value for data is: 4
+2022-05-26 11:02:32.654458:  clusterDataset()::Save the Kmeans model created.
+2022-05-26 11:02:32.656460:  clusterDataset()::KMeans model saved successfully.
+2022-05-26 11:08:07.367877:  elbow_plot()::Elbow plot creation started
+2022-05-26 11:09:12.641896:  elbow_plot()::Best cluster value for data is: 4
+2022-05-26 11:09:13.794897:  clusterDataset()::Save the Kmeans model created.
+2022-05-26 11:09:13.798898:  clusterDataset()::KMeans model saved successfully.
+2022-05-26 11:10:20.920560:  elbow_plot()::Elbow plot creation started
+2022-05-26 11:11:24.719556:  elbow_plot()::Best cluster value for data is: 4
+2022-05-26 11:11:25.905556:  clusterDataset()::Save the Kmeans model created.
+2022-05-26 11:11:25.907556:  clusterDataset()::KMeans model saved successfully.
+2022-05-26 11:28:43.501598:  elbow_plot()::Elbow plot creation started
+2022-05-26 11:29:54.845311:  elbow_plot()::Best cluster value for data is: 4
+2022-05-26 11:29:56.219842:  clusterDataset()::Save the Kmeans model created.
+2022-05-26 11:29:56.221842:  clusterDataset()::KMeans model saved successfully.
+2022-05-26 11:32:45.046910:  elbow_plot()::Elbow plot creation started
+2022-05-26 11:33:53.062148:  elbow_plot()::Best cluster value for data is: 4
+2022-05-26 11:33:54.939141:  clusterDataset()::Save the Kmeans model created.
+2022-05-26 11:33:54.945140:  clusterDataset()::KMeans model saved successfully.
+2022-05-26 11:34:35.630397:  elbow_plot()::Elbow plot creation started
+2022-05-26 11:35:48.822045:  elbow_plot()::Best cluster value for data is: 4
+2022-05-26 11:35:50.129082:  clusterDataset()::Save the Kmeans model created.
+2022-05-26 11:35:50.131082:  clusterDataset()::KMeans model saved successfully.
+2022-05-26 11:49:10.088804:  elbow_plot()::Elbow plot creation started
+2022-05-26 11:50:18.992416:  elbow_plot()::Best cluster value for data is: 4
+2022-05-26 11:50:20.351416:  clusterDataset()::Save the Kmeans model created.
+2022-05-26 11:50:20.354419:  clusterDataset()::KMeans model saved successfully.
+2022-05-26 11:52:14.544109:  elbow_plot()::Elbow plot creation started
+2022-05-26 11:53:18.971272:  elbow_plot()::Best cluster value for data is: 4
+2022-05-26 11:53:20.164272:  clusterDataset()::Save the Kmeans model created.
+2022-05-26 11:53:20.166272:  clusterDataset()::KMeans model saved successfully.
+2022-05-26 11:57:08.978822:  elbow_plot()::Elbow plot creation started
+2022-05-26 11:58:13.419475:  elbow_plot()::Best cluster value for data is: 4
+2022-05-26 11:58:14.564486:  clusterDataset()::Save the Kmeans model created.
+2022-05-26 11:58:14.568488:  clusterDataset()::KMeans model saved successfully.
+2022-05-26 12:11:23.431091:  elbow_plot()::Elbow plot creation started
+2022-05-26 12:12:34.360012:  elbow_plot()::Best cluster value for data is: 4
+2022-05-26 12:12:35.648020:  clusterDataset()::Save the Kmeans model created.
+2022-05-26 12:12:35.652017:  clusterDataset()::KMeans model saved successfully.
+2022-05-26 12:57:26.065727:  elbow_plot()::Elbow plot creation started
+2022-05-26 12:58:31.137746:  elbow_plot()::Best cluster value for data is: 4
+2022-05-26 12:58:32.280749:  clusterDataset()::Save the Kmeans model created.
+2022-05-26 12:58:32.283748:  clusterDataset()::KMeans model saved successfully.
+2022-05-26 13:07:07.040117:  elbow_plot()::Elbow plot creation started
+2022-05-26 13:08:11.240641:  elbow_plot()::Best cluster value for data is: 4
+2022-05-26 13:08:12.649641:  clusterDataset()::Save the Kmeans model created.
+2022-05-26 13:08:12.652641:  clusterDataset()::KMeans model saved successfully.
+2022-05-26 13:11:29.072974:  elbow_plot()::Elbow plot creation started
+2022-05-26 13:12:34.653001:  elbow_plot()::Best cluster value for data is: 4
+2022-05-26 13:12:35.759002:  clusterDataset()::Save the Kmeans model created.
+2022-05-26 13:12:35.761005:  clusterDataset()::KMeans model saved successfully.
+2022-05-26 13:20:16.398876:  elbow_plot()::Elbow plot creation started
+2022-05-26 13:21:21.915996:  elbow_plot()::Best cluster value for data is: 4
+2022-05-26 13:21:23.065007:  clusterDataset()::Save the Kmeans model created.
+2022-05-26 13:21:23.067996:  clusterDataset()::KMeans model saved successfully.
+2022-05-26 13:30:40.093522:  elbow_plot()::Elbow plot creation started
+2022-05-26 13:30:40.220518:  elbow_plot()::Elbow plot creation started
+2022-05-26 13:32:32.126747:  elbow_plot()::Best cluster value for data is: 4
+2022-05-26 13:32:32.202745:  elbow_plot()::Best cluster value for data is: 4
+2022-05-26 13:32:34.273278:  clusterDataset()::Save the Kmeans model created.
+2022-05-26 13:32:34.288279:  clusterDataset()::KMeans model saved successfully.
+2022-05-26 13:32:34.361279:  clusterDataset()::Save the Kmeans model created.
+2022-05-26 13:32:34.364291:  clusterDataset()::KMeans model saved successfully.
+2022-05-26 13:55:20.766099:  elbow_plot()::Elbow plot creation started
+2022-05-26 13:56:21.859088:  elbow_plot()::Best cluster value for data is: 4
+2022-05-26 13:56:22.977088:  clusterDataset()::Save the Kmeans model created.
+2022-05-26 13:56:22.979094:  clusterDataset()::KMeans model saved successfully.

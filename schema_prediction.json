@@ -1,8 +1,9 @@
 {
   "SampleFileName": "activity_01022022_120000.csv",
   "LengthOfDateStampInFile": 8,
+  "prefix": "activity",
   "LengthOfTimeStampInFile": 6,
-  "NumberOfColumns": 9,
+  "NumberOfColumns": 8,
   "ColName": {
       "Time in seconds":"float64",
       "Acceleration reading in G for frontal axis":  "float64",

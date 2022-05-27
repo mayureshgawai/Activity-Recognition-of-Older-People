@@ -1,4 +1,5 @@
 import os
+import pickle
 
 import pandas as pd
 
@@ -8,7 +9,7 @@ from sklearn.cluster import KMeans, DBSCAN
 from kneed import KneeLocator
 import matplotlib.pyplot as plt
 from file_operations.file_opr import File_Operations
-
+import csv
 import yaml
 
 class Clustering:
@@ -72,4 +73,22 @@ class Clustering:
         except Exception as e:
             self.logger.log(self.file_object, "Error occurred in clustring, "+str(e))
 
+    def cluster_prediction(self, validDataPath):
 
+        file = os.listdir(validDataPath)[0]
+        model = self.parsed_yaml['modelpath']['kmean']
+        # model = pickle.load('./'+model+'kmeans.sav')
+        with open('./'+model+"/"+'kmeans.sav', 'rb') as f:
+            model = pickle.load(f)
+
+        with open(validDataPath+'/'+file, 'r') as f:
+            df = pd.read_csv(f)
+
+            # To drop all unnecessary columns
+        for cols in df.columns:
+            if (cols.find('Unnamed') != -1):
+                df.drop(columns=[cols], inplace=True)
+        clusters = model.predict(df)
+
+        df['clusters'] = clusters
+        return df

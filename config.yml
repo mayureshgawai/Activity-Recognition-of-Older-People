@@ -2,20 +2,36 @@
 path:
   schema_prediction: 'schema_prediction.json'
   schema_training: 'schema_training.json'
+
   trainingFiles: 'training_data'
+  prediction_files: 'prediction_data'
+
+  pred_validData: 'predictionDataset/validPredData'
+  pred_invalidData: 'predictionDataset/invalidPredData'
+  pred_nullValuesData: 'predictionDataset/NullValuesData'
+  pred_input: 'PredInputFile'
   validData: 'TrainingDataSet/validTrainingData'
   invalidData: 'TrainingDataSet/invalidTrainingData'
   nullValuesData: 'TrainingDataSet/NullRemovalFiles'
   inputs: './InputFile'
+  predData: 'prediction_data'
+  finalPrediction: 'FinalPrediction'
 
 port: 5000
 
-dbconnect:
+dbconnect_train:
   database_name: 'Activity'
   table_name: 'activity_recognition'
+  pred_database: 'Prediction_Data'
+  pred_table_name: 'prediction_data'
   host: 'localhost'
   user: 'root'
   password: 'root'
+
+
+modelpath:
+  kmean: 'models/kmeans'
+
 
 
 

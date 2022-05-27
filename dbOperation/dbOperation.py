@@ -15,9 +15,9 @@ class DBOperation:
         self.trainPath = self.parsed_yaml['path']['validData']
         self.logger = Logger()
         self.file_object = './logs/dbOperation/DBOperation.txt'
-        self.host = self.parsed_yaml['dbconnect']['host']
-        self.user = self.parsed_yaml['dbconnect']['user']
-        self.passwd = self.parsed_yaml['dbconnect']['password']
+        self.host = self.parsed_yaml['dbconnect_train']['host']
+        self.user = self.parsed_yaml['dbconnect_train']['user']
+        self.passwd = self.parsed_yaml['dbconnect_train']['password']
 
 
 
@@ -42,7 +42,7 @@ class DBOperation:
             return 0
 
 
-    def select_and_create_input(self, table_name):
+    def select_and_create_input(self, table_name, operation):
         '''
             Method name: select_and_create_input()
             Description: Selects all the rows from database table and creates final input csv
@@ -52,13 +52,18 @@ class DBOperation:
 
         self.logger.log(self.file_object, "select_and_create_input()::csv creation started")
         try:
-            inputPath = self.parsed_yaml['path']['inputs']
+
+            if (operation == 'prediction'):
+                inputPath = self.parsed_yaml['path']['pred_input']
+                dbname = self.parsed_yaml['dbconnect_train']['pred_database']
+            elif(operation == 'training'):
+                inputPath = self.parsed_yaml['path']['inputs']
 
             # Removing previously existing files
             for file in os.listdir(inputPath):
                 os.remove(inputPath+"/"+file)
 
-            dbname = self.parsed_yaml['dbconnect']['database_name']
+            # dbname = self.parsed_yaml['dbconnect_train']['database_name']
             mydb = self.establish_connection(self.host, self.user, self.passwd)
             query = 'select * from '+dbname+"."+str(table_name)
             # cursor = mydb.cursor()
@@ -71,7 +76,7 @@ class DBOperation:
             self.logger.log(self.file_object, "select_and_create_input()::Error occured in execution, "+str(e))
 
 
-    def create_database(self, name):
+    def create_database(self, dbname):
         '''
             Method name: create_database()
             Description: Creating database with respect to db name
@@ -81,7 +86,6 @@ class DBOperation:
 
         try:
             self.logger.log(self.file_object, "create_database()::Create database")
-            dbname = self.parsed_yaml['dbconnect']['database_name']
 
             query = 'create database IF NOT EXISTS '+str(dbname)
 
@@ -92,7 +96,7 @@ class DBOperation:
         except Exception as e:
             self.logger.log(self.file_object, "create_database()::Error occurred in creating database. "+str(e))
 
-    def create_table(self, dbname, tableName):
+    def create_table(self, dbname, tableName, operation):
 
         '''
             Method name: create_table()
@@ -104,15 +108,25 @@ class DBOperation:
 
         try:
             self.logger.log(self.file_object, "create_database()::Create table")
-            schema = self.parsed_yaml['path']['schema_training']
             # columns = json.load(open('./'+str(schema)))
             mydb = self.establish_connection(self.host, self.user, self.passwd)
-            query = 'create table IF NOT EXISTS '+dbname+"."+tableName+'(`Time in seconds` float4, `Acceleration reading in G for frontal axis` float4, ' \
+
+            # In case database doesn't exists
+            self.create_database(dbname)
+            if (operation == 'training'):
+                query = 'create table IF NOT EXISTS '+dbname+"."+tableName+'(`Time in seconds` float4, `Acceleration reading in G for frontal axis` float4, ' \
                                                             '`Acceleration reading in G for vertical axis` float4,' \
                                                             '`Acceleration reading in G for lateral axis` float4,' \
                                                             '`Id of antenna reading sensor` float4,' \
                                                             '`Received signal strength indicator (RSSI)` float4, ' \
                                                             '`Phase` float, `Frequency` float4, `Label` int)'
+            elif(operation == 'prediction'):
+                query = 'create table IF NOT EXISTS ' + dbname + "." + tableName + '(`Time in seconds` float4, `Acceleration reading in G for frontal axis` float4, ' \
+                                                                                   '`Acceleration reading in G for vertical axis` float4,' \
+                                                                                   '`Acceleration reading in G for lateral axis` float4,' \
+                                                                                   '`Id of antenna reading sensor` float4,' \
+                                                                                   '`Received signal strength indicator (RSSI)` float4, ' \
+                                                                                   '`Phase` float, `Frequency` float4)'
             cursor = mydb.cursor()
             cursor.execute(query)
             self.logger.log(self.file_object, "create_database()::Created table Successfully")
@@ -120,7 +134,7 @@ class DBOperation:
             self.logger.log(self.file_object, "create_database()::Error occurred in creating table. "+str(e))
 
 
-    def insertIntoDB(self):
+    def insertIntoDB(self, dbname, tblname, operation):
         '''
             Method name: insertIntoDB()
             Description: Inserting values into table
@@ -129,16 +143,23 @@ class DBOperation:
 
         try:
             self.logger.log(self.file_object, "insertIntoDB()::Insert values in database")
-            trainPath = self.parsed_yaml['path']['validData']
-            files = [f for f in os.listdir(trainPath)]
-            tblname = self.parsed_yaml['dbconnect']['table_name']
-            dbname = self.parsed_yaml['dbconnect']['database_name']
+
+            if(operation == 'prediction'):
+                path = self.parsed_yaml['path']['pred_validData']
+            elif(operation == 'training'):
+                path = self.parsed_yaml['path']['validData']
+            else:
+                return
+
+            files = [f for f in os.listdir(path)]
+            # tblname = self.parsed_yaml['dbconnect_train']['table_name']
+            # dbname = self.parsed_yaml['dbconnect_train']['database_name']
 
             if len(files) == 0:
                 raise EmptyDirectoryError()
             mydb = self.establish_connection(self.host, self.user, self.passwd)
             for file in files:
-                with open("./"+str(trainPath)+"/"+file, "r") as f:
+                with open("./"+str(path)+"/"+file, "r") as f:
                     next(f)
                     reader = csv.reader(f, delimiter="\n")
                     for line in enumerate(reader):

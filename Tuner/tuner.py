@@ -112,17 +112,6 @@ class Model_Finder:
     def get_best_model(self, X_train, X_test, y_train, y_test):
 
         try:
-            # xgb = self.get_best_params_xgboost(X_train, y_train)
-            # y_pred_xgb = xgb.predict(X_test)
-            #
-            # # if there is only one label in y, then roc_auc_score returns error. We will use accuracy in that case
-            # if(len(y_test.unique()) == 1):
-            #     xgboost_score = accuracy_score(y_test, y_pred_xgb)
-            #     self.logger.log(self.file_object, "get_best_model:: Accuracy Score: "+ str(xgboost_score))
-            # else:
-            #     xgboost_score =roc_auc_score(y_test, y_pred_xgb)
-            #     self.logger.log(self.file_object, "get_best_model:: AUC Score: "+str(xgboost_score))
-
             un = y_test.unique()
             dt = self.get_best_params_dt(X_train, y_train)
             y_pred_dt = dt.predict_proba(X_test)
@@ -135,30 +124,22 @@ class Model_Finder:
                 dt_score = roc_auc_score(y_test, y_pred_dt, multi_class='ovr')
                 self.logger.log(self.file_object, "get_best_model:: AUC Score: " + str(dt_score))
 
-            # svc = self.get_best_params_svc(X_train, y_train)
-            # # y_pred_svc = svc.predict(X_test)
-            # # y_pred_svc = pd.Series(y_pred_svc)
-            # y_pred_svc = svc.predict_proba(X_test)
-            #
-            # if (len(y_test.unique()) == 1):
-            #     svc_score = accuracy_score(y_test, y_pred_svc)
-            #     self.logger.log(self.file_object, "get_best_model:: Accuracy Score: " + str(svc_score))
-            # else:
-            #     svc_score = roc_auc_score(y_test, y_pred_svc, multi_class='ovr')
-            #     self.logger.log(self.file_object, "get_best_model:: AUC Score: " + str(svc_score))
+            svc = self.get_best_params_svc(X_train, y_train)
+            # y_pred_svc = svc.predict(X_test)
+            # y_pred_svc = pd.Series(y_pred_svc)
+            y_pred_svc = svc.predict_proba(X_test)
 
-            # if(dt_score > svc_score):
-            return 'DecisionTree', dt
-            # else:
-            #     return 'SVC', svc
+            if (len(y_test.unique()) == 1):
+                svc_score = accuracy_score(y_test, y_pred_svc)
+                self.logger.log(self.file_object, "get_best_model:: Accuracy Score: " + str(svc_score))
+            else:
+                svc_score = roc_auc_score(y_test, y_pred_svc, multi_class='ovr')
+                self.logger.log(self.file_object, "get_best_model:: AUC Score: " + str(svc_score))
 
-
-            # if((xgboost_score > dt_score) and (xgboost_score > svc_score)):
-            #     return 'XGBoost', xgb
-            # elif((dt_score > xgboost_score) and (dt_score > svc_score)):
-            #     return 'DecisionTree', dt
-            # else:
-            #     return 'SVC', svc
+            if(dt_score > svc_score):
+                return 'DecisionTree', dt
+            else:
+                return 'SVC', svc
 
         except Exception as e:
             self.logger.log(self.file_object, "get_best_model::Error Occurred in process of getting best model, "+str(e))
