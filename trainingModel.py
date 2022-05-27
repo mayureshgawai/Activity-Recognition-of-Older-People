@@ -60,9 +60,9 @@ class TrainValModel:
             trainPath = self.parsed_yaml['path']['validData']
 
             # Create database
-            self.dbOperation.create_database(dbname, 'training/output')
+            self.dbOperation.create_database(dbname)
             # Create table
-            self.dbOperation.create_table(dbname, tblname)
+            self.dbOperation.create_table(dbname, tblname, 'training/output')
             # It will take files from valid data directory and insert into db.
             self.dbOperation.insertIntoDB(dbname, tblname, 'training/output')
             # It will select values from table and create final input file
