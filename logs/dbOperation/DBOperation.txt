@@ -1,0 +1,199 @@
+2022-05-26 18:23:01.338444:  create_database()::Create table
+2022-05-26 18:23:01.339444:  establish_connection()::Establishing connection
+2022-05-26 18:23:01.408125:  create_database()::Create database
+2022-05-26 18:23:01.408125:  establish_connection()::Establishing connection
+2022-05-26 18:23:01.436135:  create_database()::Created database Successfully
+2022-05-26 18:23:01.447132:  create_database()::Error occurred in creating table. 1049 (42000): Unknown database 'prediction_data'
+2022-05-26 18:23:01.448137:  insertIntoDB()::Insert values in database
+2022-05-26 18:23:01.448137:  establish_connection()::Establishing connection
+2022-05-26 18:23:01.462132:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.463134:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.464132:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.466135:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.468150:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.470138:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.471135:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.473148:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.474141:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.476132:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.477135:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.479138:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.480146:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.482139:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.483133:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.484134:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.485136:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.487135:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.488133:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.489135:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.490137:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.493130:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.494131:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.496130:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.497134:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.498139:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.499138:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.501129:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.502131:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.503134:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.505136:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.506135:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.507133:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.509131:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.510136:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.511134:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.512133:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.513136:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.515128:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.516129:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.517137:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.519136:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.520134:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.521133:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.523136:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.524132:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.526136:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.527134:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.529131:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.530131:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.531136:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.533129:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.534135:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.535130:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.536135:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.538133:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.539134:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.540130:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.542132:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.544130:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.545135:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.547135:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.548134:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.550132:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.551136:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.552134:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.553134:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.555135:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.556131:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.557133:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.558129:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.560135:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.561135:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.562134:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.563135:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.565133:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.566135:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.567134:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.569128:  insertIntoDB()::Error occurred in inserting into table traversing. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2022-05-26 18:23:01.569128:  insertIntoDB()::Inserted values in database Successfully
+2022-05-26 18:23:29.709691:  create_database()::Create table
+2022-05-26 18:23:29.710693:  establish_connection()::Establishing connection
+2022-05-26 18:23:29.723701:  create_database()::Create database
+2022-05-26 18:23:29.723701:  establish_connection()::Establishing connection
+2022-05-26 18:23:29.735684:  create_database()::Created database Successfully
+2022-05-26 18:23:29.740685:  create_database()::Error occurred in creating table. 1049 (42000): Unknown database 'prediction_data'
+2022-05-26 18:23:29.741700:  insertIntoDB()::Insert values in database
+2022-05-26 18:23:29.741700:  insertIntoDB()::Error occurred in inserting into table. The directory have no Files in it.
+2022-05-26 18:35:39.313626:  create_database()::Create table
+2022-05-26 18:35:39.313626:  establish_connection()::Establishing connection
+2022-05-26 18:35:39.329614:  create_database()::Create database
+2022-05-26 18:35:39.329614:  establish_connection()::Establishing connection
+2022-05-26 18:35:39.342173:  create_database()::Created database Successfully
+2022-05-26 18:35:39.346179:  create_database()::Error occurred in creating table. 1049 (42000): Unknown database 'prediction_data'
+2022-05-26 18:35:55.153724:  insertIntoDB()::Insert values in database
+2022-05-26 18:36:52.199734:  create_database()::Create table
+2022-05-26 18:37:20.083412:  establish_connection()::Establishing connection
+2022-05-26 18:37:43.397125:  create_database()::Create database
+2022-05-26 18:37:57.039474:  establish_connection()::Establishing connection
+2022-05-26 18:38:33.076752:  create_database()::Created database Successfully
+2022-05-26 18:39:54.147908:  create_database()::Create table
+2022-05-26 18:39:55.192141:  establish_connection()::Establishing connection
+2022-05-26 18:39:58.364602:  create_database()::Create database
+2022-05-26 18:40:11.628018:  establish_connection()::Establishing connection
+2022-05-26 18:40:32.684967:  create_database()::Created database Successfully
+2022-05-26 18:40:50.185999:  create_database()::Created table Successfully
+2022-05-26 18:40:57.213870:  insertIntoDB()::Insert values in database
+2022-05-26 18:41:26.505569:  establish_connection()::Establishing connection
+2022-05-26 18:46:37.189221:  create_database()::Create table
+2022-05-26 18:46:37.189221:  establish_connection()::Establishing connection
+2022-05-26 18:46:37.202224:  create_database()::Create database
+2022-05-26 18:46:37.202224:  establish_connection()::Establishing connection
+2022-05-26 18:46:37.212234:  create_database()::Created database Successfully
+2022-05-26 18:46:37.219635:  create_database()::Created table Successfully
+2022-05-26 18:46:40.517505:  insertIntoDB()::Insert values in database
+2022-05-26 18:46:46.807325:  establish_connection()::Establishing connection
+2022-05-26 18:54:52.147199:  create_database()::Create table
+2022-05-26 18:54:52.147199:  establish_connection()::Establishing connection
+2022-05-26 18:54:52.160194:  create_database()::Create database
+2022-05-26 18:54:52.160194:  establish_connection()::Establishing connection
+2022-05-26 18:54:52.171188:  create_database()::Created database Successfully
+2022-05-26 18:54:52.173193:  create_database()::Created table Successfully
+2022-05-26 18:54:57.752193:  insertIntoDB()::Insert values in database
+2022-05-26 18:55:02.549261:  establish_connection()::Establishing connection
+2022-05-26 22:13:44.820815:  create_database()::Create table
+2022-05-26 22:13:46.306273:  establish_connection()::Establishing connection
+2022-05-26 22:13:53.063987:  create_database()::Create database
+2022-05-26 22:13:53.063987:  establish_connection()::Establishing connection
+2022-05-26 22:13:53.092409:  create_database()::Created database Successfully
+2022-05-26 22:14:53.279718:  create_database()::Created table Successfully
+2022-05-26 22:15:01.759577:  insertIntoDB()::Insert values in database
+2022-05-26 22:16:17.113376:  establish_connection()::Establishing connection
+2022-05-26 22:17:46.333521:  insertIntoDB()::Inserted values in database Successfully
+2022-05-26 22:20:35.874794:  create_database()::Create table
+2022-05-26 22:20:35.874794:  establish_connection()::Establishing connection
+2022-05-26 22:20:35.882795:  create_database()::Create database
+2022-05-26 22:20:35.890809:  establish_connection()::Establishing connection
+2022-05-26 22:20:35.902580:  create_database()::Created database Successfully
+2022-05-26 22:20:35.942635:  create_database()::Created table Successfully
+2022-05-26 22:20:38.929855:  insertIntoDB()::Insert values in database
+2022-05-26 22:20:38.929855:  establish_connection()::Establishing connection
+2022-05-26 22:20:39.332800:  insertIntoDB()::Inserted values in database Successfully
+2022-05-26 22:20:50.809758:  select_and_create_input()::csv creation started
+2022-05-26 22:23:48.330257:  create_database()::Create table
+2022-05-26 22:23:48.330257:  establish_connection()::Establishing connection
+2022-05-26 22:23:48.354485:  create_database()::Create database
+2022-05-26 22:23:48.354485:  establish_connection()::Establishing connection
+2022-05-26 22:23:48.378476:  create_database()::Created database Successfully
+2022-05-26 22:23:48.426483:  create_database()::Created table Successfully
+2022-05-26 22:23:49.035829:  insertIntoDB()::Insert values in database
+2022-05-26 22:23:49.037870:  establish_connection()::Establishing connection
+2022-05-26 22:23:49.476471:  insertIntoDB()::Inserted values in database Successfully
+2022-05-26 22:23:53.497697:  select_and_create_input()::csv creation started
+2022-05-26 22:24:01.264185:  establish_connection()::Establishing connection
+2022-05-26 22:25:12.213298:  select_and_create_input()::Created Final input file Successfully
+2022-05-26 22:27:06.996008:  create_database()::Create table
+2022-05-26 22:27:06.996008:  establish_connection()::Establishing connection
+2022-05-26 22:27:07.011727:  create_database()::Create database
+2022-05-26 22:27:07.011727:  establish_connection()::Establishing connection
+2022-05-26 22:27:07.023142:  create_database()::Created database Successfully
+2022-05-26 22:27:07.055183:  create_database()::Created table Successfully
+2022-05-26 22:27:07.580732:  insertIntoDB()::Insert values in database
+2022-05-26 22:27:07.580732:  establish_connection()::Establishing connection
+2022-05-26 22:27:08.032864:  insertIntoDB()::Inserted values in database Successfully
+2022-05-26 22:27:10.164434:  select_and_create_input()::csv creation started
+2022-05-26 22:27:10.164434:  establish_connection()::Establishing connection
+2022-05-26 22:27:10.220251:  select_and_create_input()::Created Final input file Successfully
+2022-05-26 22:29:32.024042:  create_database()::Create table
+2022-05-26 22:29:32.024042:  establish_connection()::Establishing connection
+2022-05-26 22:29:32.055824:  create_database()::Create database
+2022-05-26 22:29:32.055824:  establish_connection()::Establishing connection
+2022-05-26 22:29:32.080187:  create_database()::Created database Successfully
+2022-05-26 22:29:32.136222:  create_database()::Created table Successfully
+2022-05-26 22:29:33.024656:  insertIntoDB()::Insert values in database
+2022-05-26 22:29:33.024656:  establish_connection()::Establishing connection
+2022-05-26 22:29:33.426075:  insertIntoDB()::Inserted values in database Successfully
+2022-05-26 22:29:34.650413:  select_and_create_input()::csv creation started
+2022-05-26 22:29:34.650413:  establish_connection()::Establishing connection
+2022-05-26 22:29:34.690882:  select_and_create_input()::Created Final input file Successfully
+2022-05-27 10:55:37.699717:  create_database()::Create table
+2022-05-27 10:55:37.699717:  establish_connection()::Establishing connection
+2022-05-27 10:55:37.790755:  create_database()::Create database
+2022-05-27 10:55:37.791754:  establish_connection()::Establishing connection
+2022-05-27 10:55:37.825995:  create_database()::Created database Successfully
+2022-05-27 10:55:37.847804:  create_database()::Created table Successfully
+2022-05-27 10:55:37.848819:  insertIntoDB()::Insert values in database
+2022-05-27 10:55:37.849812:  establish_connection()::Establishing connection
+2022-05-27 10:55:38.043804:  insertIntoDB()::Inserted values in database Successfully
+2022-05-27 10:55:41.346023:  select_and_create_input()::csv creation started
+2022-05-27 10:55:41.346798:  establish_connection()::Establishing connection
+2022-05-27 10:55:41.380410:  select_and_create_input()::Created Final input file Successfully
