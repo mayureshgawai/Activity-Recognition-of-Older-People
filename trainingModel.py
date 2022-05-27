@@ -55,8 +55,8 @@ class TrainValModel:
 
             self.logger.log(self.file_object, "train_val_data()::DB operation starts.")
 
-            dbname = self.parsed_yaml['dbconnect']['database_name']
-            tblname = self.parsed_yaml['dbconnect']['table_name']
+            dbname = self.parsed_yaml['dbconnect_train']['database_name']
+            tblname = self.parsed_yaml['dbconnect_train']['table_name']
             trainPath = self.parsed_yaml['path']['validData']
 
             # Create database
