@@ -197,3 +197,618 @@
 2022-05-27 10:55:41.346023:  select_and_create_input()::csv creation started
 2022-05-27 10:55:41.346798:  establish_connection()::Establishing connection
 2022-05-27 10:55:41.380410:  select_and_create_input()::Created Final input file Successfully
+2022-05-27 12:54:48.288569:  create_database()::Create table
+2022-05-27 12:54:48.290570:  establish_connection()::Establishing connection
+2022-05-27 12:54:48.321553:  create_database()::Create database
+2022-05-27 12:54:48.321553:  establish_connection()::Establishing connection
+2022-05-27 12:54:48.334556:  create_database()::Created database Successfully
+2022-05-27 12:54:48.358582:  create_database()::Created table Successfully
+2022-05-27 12:54:48.359582:  insertIntoDB()::Insert values in database
+2022-05-27 12:54:48.359582:  establish_connection()::Establishing connection
+2022-05-27 12:54:48.533986:  insertIntoDB()::Inserted values in database Successfully
+2022-05-27 12:54:48.534989:  select_and_create_input()::csv creation started
+2022-05-27 12:54:48.534989:  establish_connection()::Establishing connection
+2022-05-27 12:54:48.551987:  select_and_create_input()::Created Final input file Successfully
+2022-05-27 13:00:42.236450:  create_database()::Create table
+2022-05-27 13:00:42.236450:  establish_connection()::Establishing connection
+2022-05-27 13:00:42.252441:  create_database()::Create database
+2022-05-27 13:00:42.253445:  establish_connection()::Establishing connection
+2022-05-27 13:00:42.259440:  create_database()::Created database Successfully
+2022-05-27 13:00:42.262444:  create_database()::Created table Successfully
+2022-05-27 13:00:42.263441:  insertIntoDB()::Insert values in database
+2022-05-27 13:00:42.263441:  establish_connection()::Establishing connection
+2022-05-27 13:00:42.450441:  insertIntoDB()::Inserted values in database Successfully
+2022-05-27 13:00:42.451441:  select_and_create_input()::csv creation started
+2022-05-27 13:00:42.452441:  establish_connection()::Establishing connection
+2022-05-27 13:00:42.466442:  select_and_create_input()::Created Final input file Successfully
+2022-05-27 13:05:53.886738:  create_database()::Create table
+2022-05-27 13:05:53.886738:  establish_connection()::Establishing connection
+2022-05-27 13:05:53.902741:  create_database()::Create database
+2022-05-27 13:05:53.902741:  establish_connection()::Establishing connection
+2022-05-27 13:05:53.908744:  create_database()::Created database Successfully
+2022-05-27 13:05:53.911736:  create_database()::Created table Successfully
+2022-05-27 13:05:53.912739:  insertIntoDB()::Insert values in database
+2022-05-27 13:05:53.913739:  establish_connection()::Establishing connection
+2022-05-27 13:05:54.100743:  insertIntoDB()::Inserted values in database Successfully
+2022-05-27 13:05:54.101733:  select_and_create_input()::csv creation started
+2022-05-27 13:05:54.102749:  establish_connection()::Establishing connection
+2022-05-27 13:05:54.119735:  select_and_create_input()::Created Final input file Successfully
+2022-05-27 13:09:39.752606:  create_database()::Create table
+2022-05-27 13:09:39.752606:  establish_connection()::Establishing connection
+2022-05-27 13:09:39.770610:  create_database()::Create database
+2022-05-27 13:09:39.770610:  establish_connection()::Establishing connection
+2022-05-27 13:09:39.777602:  create_database()::Created database Successfully
+2022-05-27 13:09:39.779606:  create_database()::Created table Successfully
+2022-05-27 13:09:39.780597:  insertIntoDB()::Insert values in database
+2022-05-27 13:09:39.780597:  establish_connection()::Establishing connection
+2022-05-27 13:09:39.981598:  insertIntoDB()::Inserted values in database Successfully
+2022-05-27 13:09:39.982595:  select_and_create_input()::csv creation started
+2022-05-27 13:09:39.982595:  establish_connection()::Establishing connection
+2022-05-27 13:09:40.001603:  select_and_create_input()::Created Final input file Successfully
+2022-05-27 13:14:32.046203:  create_database()::Create table
+2022-05-27 13:14:32.047207:  establish_connection()::Establishing connection
+2022-05-27 13:14:32.063980:  create_database()::Create database
+2022-05-27 13:14:32.063980:  establish_connection()::Establishing connection
+2022-05-27 13:14:32.069975:  create_database()::Created database Successfully
+2022-05-27 13:14:32.072968:  create_database()::Created table Successfully
+2022-05-27 13:14:32.073970:  insertIntoDB()::Insert values in database
+2022-05-27 13:14:32.073970:  establish_connection()::Establishing connection
+2022-05-27 13:14:32.267973:  insertIntoDB()::Inserted values in database Successfully
+2022-05-27 13:14:32.267973:  select_and_create_input()::csv creation started
+2022-05-27 13:14:32.268970:  establish_connection()::Establishing connection
+2022-05-27 13:14:32.289968:  select_and_create_input()::Created Final input file Successfully
+2022-05-27 13:16:31.204381:  create_database()::Create table
+2022-05-27 13:16:31.204381:  establish_connection()::Establishing connection
+2022-05-27 13:16:31.219378:  create_database()::Create database
+2022-05-27 13:16:31.220384:  establish_connection()::Establishing connection
+2022-05-27 13:16:31.229378:  create_database()::Created database Successfully
+2022-05-27 13:16:31.248375:  create_database()::Created table Successfully
+2022-05-27 13:16:31.249376:  insertIntoDB()::Insert values in database
+2022-05-27 13:16:31.249376:  establish_connection()::Establishing connection
+2022-05-27 13:16:31.446382:  insertIntoDB()::Inserted values in database Successfully
+2022-05-27 13:16:31.447379:  select_and_create_input()::csv creation started
+2022-05-27 13:16:31.448377:  establish_connection()::Establishing connection
+2022-05-27 13:16:31.462388:  select_and_create_input()::Created Final input file Successfully
+2022-05-27 13:17:20.746718:  create_database()::Create table
+2022-05-27 13:17:20.747721:  establish_connection()::Establishing connection
+2022-05-27 13:17:20.757701:  create_database()::Create database
+2022-05-27 13:17:20.758716:  establish_connection()::Establishing connection
+2022-05-27 13:17:20.764715:  create_database()::Created database Successfully
+2022-05-27 13:17:20.767699:  create_database()::Created table Successfully
+2022-05-27 13:17:20.768708:  insertIntoDB()::Insert values in database
+2022-05-27 13:17:20.768708:  establish_connection()::Establishing connection
+2022-05-27 13:17:20.932316:  insertIntoDB()::Inserted values in database Successfully
+2022-05-27 13:17:20.933319:  select_and_create_input()::csv creation started
+2022-05-27 13:17:20.933319:  establish_connection()::Establishing connection
+2022-05-27 13:17:20.951331:  select_and_create_input()::Created Final input file Successfully
+2022-05-27 13:29:43.414591:  create_database()::Create table
+2022-05-27 13:29:43.415591:  establish_connection()::Establishing connection
+2022-05-27 13:29:43.446575:  create_database()::Create database
+2022-05-27 13:29:43.446575:  establish_connection()::Establishing connection
+2022-05-27 13:29:43.455578:  create_database()::Created database Successfully
+2022-05-27 13:29:43.478578:  create_database()::Created table Successfully
+2022-05-27 13:29:43.478578:  insertIntoDB()::Insert values in database
+2022-05-27 13:29:43.479586:  create_database()::Create table
+2022-05-27 13:29:43.479586:  establish_connection()::Establishing connection
+2022-05-27 13:29:43.484595:  create_database()::Create database
+2022-05-27 13:29:43.484595:  establish_connection()::Establishing connection
+2022-05-27 13:29:43.491591:  create_database()::Created database Successfully
+2022-05-27 13:29:43.494593:  create_database()::Created table Successfully
+2022-05-27 13:29:43.495593:  establish_connection()::Establishing connection
+2022-05-27 13:29:43.657476:  insertIntoDB()::Inserted values in database Successfully
+2022-05-27 13:29:43.658478:  select_and_create_input()::csv creation started
+2022-05-27 13:32:09.344877:  create_database()::Create table
+2022-05-27 13:32:09.345882:  establish_connection()::Establishing connection
+2022-05-27 13:32:09.354885:  create_database()::Create database
+2022-05-27 13:32:09.354885:  establish_connection()::Establishing connection
+2022-05-27 13:32:09.364866:  create_database()::Created database Successfully
+2022-05-27 13:32:09.383875:  create_database()::Created table Successfully
+2022-05-27 13:32:10.854100:  insertIntoDB()::Insert values in database
+2022-05-27 13:32:10.854938:  create_database()::Create table
+2022-05-27 13:32:10.854938:  establish_connection()::Establishing connection
+2022-05-27 13:32:10.859927:  create_database()::Create database
+2022-05-27 13:32:10.859927:  establish_connection()::Establishing connection
+2022-05-27 13:32:10.865948:  create_database()::Created database Successfully
+2022-05-27 13:32:10.870438:  create_database()::Created table Successfully
+2022-05-27 13:32:10.871459:  establish_connection()::Establishing connection
+2022-05-27 13:32:11.057355:  insertIntoDB()::Inserted values in database Successfully
+2022-05-27 13:32:13.228127:  select_and_create_input()::csv creation started
+2022-05-27 13:33:57.386789:  create_database()::Create table
+2022-05-27 13:33:57.387618:  establish_connection()::Establishing connection
+2022-05-27 13:33:57.396616:  create_database()::Create database
+2022-05-27 13:33:57.396616:  establish_connection()::Establishing connection
+2022-05-27 13:33:57.407514:  create_database()::Created database Successfully
+2022-05-27 13:33:57.425942:  create_database()::Created table Successfully
+2022-05-27 13:33:58.183229:  insertIntoDB()::Insert values in database
+2022-05-27 13:33:58.184224:  create_database()::Create table
+2022-05-27 13:33:58.184224:  establish_connection()::Establishing connection
+2022-05-27 13:33:58.188230:  create_database()::Create database
+2022-05-27 13:33:58.189240:  establish_connection()::Establishing connection
+2022-05-27 13:33:58.195214:  create_database()::Created database Successfully
+2022-05-27 13:33:58.200238:  create_database()::Created table Successfully
+2022-05-27 13:33:58.201241:  establish_connection()::Establishing connection
+2022-05-27 13:33:58.400640:  insertIntoDB()::Inserted values in database Successfully
+2022-05-27 13:34:00.759568:  select_and_create_input()::csv creation started
+2022-05-27 13:35:49.784311:  create_database()::Create table
+2022-05-27 13:35:49.785130:  establish_connection()::Establishing connection
+2022-05-27 13:35:49.794134:  create_database()::Create database
+2022-05-27 13:35:49.794134:  establish_connection()::Establishing connection
+2022-05-27 13:35:49.801299:  create_database()::Created database Successfully
+2022-05-27 13:35:49.804227:  create_database()::Created table Successfully
+2022-05-27 13:35:50.645222:  insertIntoDB()::Insert values in database
+2022-05-27 13:35:50.645222:  create_database()::Create table
+2022-05-27 13:35:50.645222:  establish_connection()::Establishing connection
+2022-05-27 13:35:50.649225:  create_database()::Create database
+2022-05-27 13:35:50.649225:  establish_connection()::Establishing connection
+2022-05-27 13:35:50.656425:  create_database()::Created database Successfully
+2022-05-27 13:35:50.659407:  create_database()::Created table Successfully
+2022-05-27 13:35:50.660426:  establish_connection()::Establishing connection
+2022-05-27 13:35:50.844715:  insertIntoDB()::Inserted values in database Successfully
+2022-05-27 13:35:53.420312:  select_and_create_input()::csv creation started
+2022-05-27 13:36:31.390234:  establish_connection()::Establishing connection
+2022-05-27 13:36:50.924713:  select_and_create_input()::Created Final input file Successfully
+2022-05-27 13:38:35.514053:  insertIntoDB()::Insert values in database
+2022-05-27 14:18:34.914047:  create_database()::Create table
+2022-05-27 14:18:34.915051:  establish_connection()::Establishing connection
+2022-05-27 14:18:34.925070:  create_database()::Create database
+2022-05-27 14:18:34.925070:  establish_connection()::Establishing connection
+2022-05-27 14:18:34.935009:  create_database()::Created database Successfully
+2022-05-27 14:18:34.950020:  create_database()::Created table Successfully
+2022-05-27 14:18:37.456553:  insertIntoDB()::Insert values in database
+2022-05-27 14:18:37.456553:  create_database()::Create table
+2022-05-27 14:18:37.456553:  establish_connection()::Establishing connection
+2022-05-27 14:18:37.461556:  create_database()::Create database
+2022-05-27 14:18:37.461556:  establish_connection()::Establishing connection
+2022-05-27 14:18:37.467895:  create_database()::Created database Successfully
+2022-05-27 14:18:37.470901:  create_database()::Created table Successfully
+2022-05-27 14:18:37.471888:  establish_connection()::Establishing connection
+2022-05-27 14:18:37.663816:  insertIntoDB()::Inserted values in database Successfully
+2022-05-27 14:18:42.208318:  select_and_create_input()::csv creation started
+2022-05-27 14:18:42.209161:  establish_connection()::Establishing connection
+2022-05-27 14:18:42.226167:  select_and_create_input()::Created Final input file Successfully
+2022-05-27 14:19:15.887014:  create_database()::Create table
+2022-05-27 14:19:15.888012:  establish_connection()::Establishing connection
+2022-05-27 14:19:15.891994:  create_database()::Create database
+2022-05-27 14:19:15.891994:  establish_connection()::Establishing connection
+2022-05-27 14:19:15.897994:  create_database()::Created database Successfully
+2022-05-27 14:19:15.920915:  create_database()::Created table Successfully
+2022-05-27 14:22:55.608951:  create_database()::Create table
+2022-05-27 14:22:55.608951:  establish_connection()::Establishing connection
+2022-05-27 14:22:55.670031:  create_database()::Create database
+2022-05-27 14:22:55.670031:  establish_connection()::Establishing connection
+2022-05-27 14:22:55.682027:  create_database()::Created database Successfully
+2022-05-27 14:22:55.718693:  create_database()::Created table Successfully
+2022-05-27 14:22:56.389281:  insertIntoDB()::Insert values in database
+2022-05-27 14:22:56.390281:  create_database()::Create table
+2022-05-27 14:22:56.390281:  establish_connection()::Establishing connection
+2022-05-27 14:22:56.395282:  create_database()::Create database
+2022-05-27 14:22:56.395282:  establish_connection()::Establishing connection
+2022-05-27 14:22:56.403282:  create_database()::Created database Successfully
+2022-05-27 14:22:56.408278:  create_database()::Created table Successfully
+2022-05-27 14:22:56.409280:  establish_connection()::Establishing connection
+2022-05-27 14:22:56.581221:  insertIntoDB()::Inserted values in database Successfully
+2022-05-27 14:22:57.151647:  select_and_create_input()::csv creation started
+2022-05-27 14:22:57.151647:  establish_connection()::Establishing connection
+2022-05-27 14:22:57.169639:  select_and_create_input()::Created Final input file Successfully
+2022-05-27 14:23:08.335910:  create_database()::Create table
+2022-05-27 14:23:08.336722:  establish_connection()::Establishing connection
+2022-05-27 14:23:08.340727:  create_database()::Create database
+2022-05-27 14:23:08.341731:  establish_connection()::Establishing connection
+2022-05-27 14:23:08.348724:  create_database()::Created database Successfully
+2022-05-27 14:23:08.371921:  create_database()::Created table Successfully
+2022-05-27 14:24:31.312081:  create_database()::Create table
+2022-05-27 14:24:31.312081:  establish_connection()::Establishing connection
+2022-05-27 14:24:31.322090:  create_database()::Create database
+2022-05-27 14:24:31.323082:  establish_connection()::Establishing connection
+2022-05-27 14:24:31.332083:  create_database()::Created database Successfully
+2022-05-27 14:24:31.348081:  create_database()::Created table Successfully
+2022-05-27 14:24:31.858428:  insertIntoDB()::Insert values in database
+2022-05-27 14:24:31.859467:  create_database()::Create table
+2022-05-27 14:24:31.859467:  establish_connection()::Establishing connection
+2022-05-27 14:24:31.864470:  create_database()::Create database
+2022-05-27 14:24:31.865472:  establish_connection()::Establishing connection
+2022-05-27 14:24:31.872463:  create_database()::Created database Successfully
+2022-05-27 14:24:31.875286:  create_database()::Created table Successfully
+2022-05-27 14:24:31.876300:  establish_connection()::Establishing connection
+2022-05-27 14:24:32.075090:  insertIntoDB()::Inserted values in database Successfully
+2022-05-27 14:24:35.332225:  select_and_create_input()::csv creation started
+2022-05-27 14:24:35.333071:  establish_connection()::Establishing connection
+2022-05-27 14:24:35.352125:  select_and_create_input()::Created Final input file Successfully
+2022-05-27 14:26:00.109450:  create_database()::Create table
+2022-05-27 14:26:00.110465:  establish_connection()::Establishing connection
+2022-05-27 14:26:00.115477:  create_database()::Create database
+2022-05-27 14:26:00.115477:  establish_connection()::Establishing connection
+2022-05-27 14:26:00.122755:  create_database()::Created database Successfully
+2022-05-27 14:26:00.151064:  create_database()::Created table Successfully
+2022-05-27 14:26:08.906892:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.593378:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.601365:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.610365:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.628375:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.636372:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.645121:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.653071:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.661091:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.670091:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.679078:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.689081:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.697083:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.705074:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.713081:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.721079:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.728082:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.737074:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.744075:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.751074:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.759073:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.768077:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.775072:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.782068:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.790070:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.798068:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.806069:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.813068:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.820070:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.828079:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.835069:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.843070:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.850067:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.858070:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.865067:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.873068:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.880071:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.887069:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.895070:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.903070:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.911073:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.919082:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.927072:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.935070:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.943073:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.951080:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.960070:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.968071:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.976078:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.984071:  establish_connection()::Establishing connection
+2022-05-27 14:26:29.993075:  establish_connection()::Establishing connection
+2022-05-27 14:26:30.001071:  establish_connection()::Establishing connection
+2022-05-27 14:26:30.010072:  establish_connection()::Establishing connection
+2022-05-27 14:26:30.019077:  establish_connection()::Establishing connection
+2022-05-27 14:26:30.027075:  establish_connection()::Establishing connection
+2022-05-27 14:26:30.035073:  establish_connection()::Establishing connection
+2022-05-27 14:26:30.043071:  establish_connection()::Establishing connection
+2022-05-27 14:26:30.051074:  establish_connection()::Establishing connection
+2022-05-27 14:26:30.059070:  establish_connection()::Establishing connection
+2022-05-27 14:26:30.066072:  establish_connection()::Establishing connection
+2022-05-27 14:26:30.073069:  establish_connection()::Establishing connection
+2022-05-27 14:26:30.080071:  establish_connection()::Establishing connection
+2022-05-27 14:26:30.087066:  establish_connection()::Establishing connection
+2022-05-27 14:26:30.095070:  establish_connection()::Establishing connection
+2022-05-27 14:26:30.102069:  establish_connection()::Establishing connection
+2022-05-27 14:26:30.110069:  establish_connection()::Establishing connection
+2022-05-27 14:26:30.118069:  establish_connection()::Establishing connection
+2022-05-27 14:26:30.126072:  establish_connection()::Establishing connection
+2022-05-27 14:26:30.134069:  establish_connection()::Establishing connection
+2022-05-27 14:26:30.142069:  establish_connection()::Establishing connection
+2022-05-27 14:26:30.149066:  establish_connection()::Establishing connection
+2022-05-27 14:26:30.156068:  establish_connection()::Establishing connection
+2022-05-27 14:26:30.164071:  establish_connection()::Establishing connection
+2022-05-27 14:26:30.171070:  establish_connection()::Establishing connection
+2022-05-27 14:26:30.177067:  establish_connection()::Establishing connection
+2022-05-27 14:26:30.184070:  establish_connection()::Establishing connection
+2022-05-27 14:26:30.191071:  establish_connection()::Establishing connection
+2022-05-27 14:26:30.197068:  establish_connection()::Establishing connection
+2022-05-27 14:26:30.204071:  establish_connection()::Establishing connection
+2022-05-27 14:26:39.455617:  select_and_create_input()::csv creation started
+2022-05-27 14:44:19.864673:  create_database()::Create table
+2022-05-27 14:44:19.865489:  establish_connection()::Establishing connection
+2022-05-27 14:44:19.875474:  create_database()::Create database
+2022-05-27 14:44:19.875474:  establish_connection()::Establishing connection
+2022-05-27 14:44:19.884475:  create_database()::Created database Successfully
+2022-05-27 14:44:19.900813:  create_database()::Created table Successfully
+2022-05-27 14:44:20.972211:  insertIntoDB()::Insert values in database
+2022-05-27 14:44:20.972912:  create_database()::Create table
+2022-05-27 14:44:20.972912:  establish_connection()::Establishing connection
+2022-05-27 14:44:20.977918:  create_database()::Create database
+2022-05-27 14:44:20.977918:  establish_connection()::Establishing connection
+2022-05-27 14:44:20.984939:  create_database()::Created database Successfully
+2022-05-27 14:44:20.994725:  create_database()::Created table Successfully
+2022-05-27 14:44:20.994725:  establish_connection()::Establishing connection
+2022-05-27 14:44:21.177252:  insertIntoDB()::Inserted values in database Successfully
+2022-05-27 14:44:22.113610:  select_and_create_input()::csv creation started
+2022-05-27 14:44:22.114627:  establish_connection()::Establishing connection
+2022-05-27 14:44:22.131631:  select_and_create_input()::Created Final input file Successfully
+2022-05-27 14:44:32.813358:  create_database()::Create table
+2022-05-27 14:44:32.814375:  establish_connection()::Establishing connection
+2022-05-27 14:44:32.818466:  create_database()::Create database
+2022-05-27 14:44:32.819379:  establish_connection()::Establishing connection
+2022-05-27 14:44:32.825156:  create_database()::Created database Successfully
+2022-05-27 14:44:32.845177:  create_database()::Created table Successfully
+2022-05-27 14:44:38.881666:  establish_connection()::Establishing connection
+2022-05-27 14:44:38.890697:  establish_connection()::Establishing connection
+2022-05-27 14:44:38.897684:  establish_connection()::Establishing connection
+2022-05-27 14:44:38.904904:  establish_connection()::Establishing connection
+2022-05-27 14:44:38.910901:  establish_connection()::Establishing connection
+2022-05-27 14:44:38.917901:  establish_connection()::Establishing connection
+2022-05-27 14:44:38.925633:  establish_connection()::Establishing connection
+2022-05-27 14:44:38.932633:  establish_connection()::Establishing connection
+2022-05-27 14:44:38.938629:  establish_connection()::Establishing connection
+2022-05-27 14:44:38.945630:  establish_connection()::Establishing connection
+2022-05-27 14:44:38.952989:  establish_connection()::Establishing connection
+2022-05-27 14:44:38.961002:  establish_connection()::Establishing connection
+2022-05-27 14:44:38.967150:  establish_connection()::Establishing connection
+2022-05-27 14:44:38.974150:  establish_connection()::Establishing connection
+2022-05-27 14:44:38.983635:  establish_connection()::Establishing connection
+2022-05-27 14:44:38.990645:  establish_connection()::Establishing connection
+2022-05-27 14:44:38.997004:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.004026:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.011016:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.018211:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.025239:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.032234:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.039383:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.046383:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.053375:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.059373:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.065820:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.072831:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.079831:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.088830:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.094848:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.101257:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.108277:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.115268:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.121701:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.128714:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.135755:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.143101:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.150103:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.156103:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.163103:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.172100:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.179122:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.186131:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.193132:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.200141:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.207379:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.213368:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.219371:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.226381:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.234160:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.241156:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.249156:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.256935:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.263934:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.271637:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.278657:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.284657:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.291658:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.298657:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.304662:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.314663:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.321659:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.328660:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.335658:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.341657:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.348657:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.356221:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.362220:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.369218:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.375219:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.384682:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.391693:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.398691:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.406095:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.413098:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.419083:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.426082:  establish_connection()::Establishing connection
+2022-05-27 14:44:39.433144:  establish_connection()::Establishing connection
+2022-05-27 14:47:08.902063:  create_database()::Create table
+2022-05-27 14:47:08.902704:  establish_connection()::Establishing connection
+2022-05-27 14:47:08.910695:  create_database()::Create database
+2022-05-27 14:47:08.911697:  establish_connection()::Establishing connection
+2022-05-27 14:47:08.921697:  create_database()::Created database Successfully
+2022-05-27 14:47:08.940479:  create_database()::Created table Successfully
+2022-05-27 14:47:09.828516:  insertIntoDB()::Insert values in database
+2022-05-27 14:47:09.828516:  create_database()::Create table
+2022-05-27 14:47:09.828516:  establish_connection()::Establishing connection
+2022-05-27 14:47:09.833517:  create_database()::Create database
+2022-05-27 14:47:09.833517:  establish_connection()::Establishing connection
+2022-05-27 14:47:09.841045:  create_database()::Created database Successfully
+2022-05-27 14:47:09.845054:  create_database()::Created table Successfully
+2022-05-27 14:47:09.846062:  establish_connection()::Establishing connection
+2022-05-27 14:47:10.018684:  insertIntoDB()::Inserted values in database Successfully
+2022-05-27 14:47:10.781433:  select_and_create_input()::csv creation started
+2022-05-27 14:47:10.781433:  establish_connection()::Establishing connection
+2022-05-27 14:47:10.797430:  select_and_create_input()::Created Final input file Successfully
+2022-05-27 14:48:49.514667:  create_database()::Create table
+2022-05-27 14:48:49.515691:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.519684:  create_database()::Create database
+2022-05-27 14:48:49.519684:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.526684:  create_database()::Created database Successfully
+2022-05-27 14:48:49.543778:  create_database()::Created table Successfully
+2022-05-27 14:48:49.544777:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.551931:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.559957:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.566954:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.573308:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.582332:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.593328:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.603319:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.611323:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.618321:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.627319:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.634326:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.641325:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.649328:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.656319:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.664321:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.671320:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.678322:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.686324:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.695319:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.703323:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.710323:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.717319:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.724322:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.731322:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.738319:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.746329:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.754324:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.760319:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.768319:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.776318:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.783319:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.790319:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.798319:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.806319:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.813323:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.819319:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.826319:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.833325:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.840318:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.847599:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.853602:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.860599:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.867577:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.875601:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.882605:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.889395:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.896406:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.903406:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.910244:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.917260:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.925272:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.932559:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.940586:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.947659:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.956622:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.964580:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.972585:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.978593:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.986630:  establish_connection()::Establishing connection
+2022-05-27 14:48:49.994616:  establish_connection()::Establishing connection
+2022-05-27 14:48:50.001638:  establish_connection()::Establishing connection
+2022-05-27 14:48:50.009842:  establish_connection()::Establishing connection
+2022-05-27 14:48:50.017840:  establish_connection()::Establishing connection
+2022-05-27 14:48:50.025830:  establish_connection()::Establishing connection
+2022-05-27 14:48:50.032925:  establish_connection()::Establishing connection
+2022-05-27 14:48:50.038937:  establish_connection()::Establishing connection
+2022-05-27 14:48:50.046935:  establish_connection()::Establishing connection
+2022-05-27 14:48:50.053709:  establish_connection()::Establishing connection
+2022-05-27 14:48:50.060721:  establish_connection()::Establishing connection
+2022-05-27 14:48:50.068719:  establish_connection()::Establishing connection
+2022-05-27 14:48:50.075159:  establish_connection()::Establishing connection
+2022-05-27 14:48:50.081171:  establish_connection()::Establishing connection
+2022-05-27 14:48:50.089171:  establish_connection()::Establishing connection
+2022-05-27 14:48:50.095078:  establish_connection()::Establishing connection
+2022-05-27 14:48:50.102099:  establish_connection()::Establishing connection
+2022-05-27 14:48:50.109102:  establish_connection()::Establishing connection
+2022-05-27 14:48:50.116261:  establish_connection()::Establishing connection
+2022-05-27 14:48:50.123503:  establish_connection()::Establishing connection
+2022-05-27 14:49:07.234409:  establish_connection()::Establishing connection
+2022-05-27 14:52:11.269601:  create_database()::Create table
+2022-05-27 14:52:11.270436:  establish_connection()::Establishing connection
+2022-05-27 14:52:11.278440:  create_database()::Create database
+2022-05-27 14:52:11.279445:  establish_connection()::Establishing connection
+2022-05-27 14:52:11.289882:  create_database()::Created database Successfully
+2022-05-27 14:52:11.308665:  create_database()::Created table Successfully
+2022-05-27 14:52:11.878787:  insertIntoDB()::Insert values in database
+2022-05-27 14:52:11.879808:  create_database()::Create table
+2022-05-27 14:52:11.879808:  establish_connection()::Establishing connection
+2022-05-27 14:52:11.883805:  create_database()::Create database
+2022-05-27 14:52:11.884811:  establish_connection()::Establishing connection
+2022-05-27 14:52:11.891963:  create_database()::Created database Successfully
+2022-05-27 14:52:11.895818:  create_database()::Created table Successfully
+2022-05-27 14:52:11.895818:  establish_connection()::Establishing connection
+2022-05-27 14:52:12.100181:  insertIntoDB()::Inserted values in database Successfully
+2022-05-27 14:52:12.907709:  select_and_create_input()::csv creation started
+2022-05-27 14:52:12.907709:  establish_connection()::Establishing connection
+2022-05-27 14:52:12.923718:  select_and_create_input()::Created Final input file Successfully
+2022-05-27 14:52:24.754366:  create_database()::Create table
+2022-05-27 14:52:24.754366:  establish_connection()::Establishing connection
+2022-05-27 14:52:24.758462:  create_database()::Create database
+2022-05-27 14:52:24.759471:  establish_connection()::Establishing connection
+2022-05-27 14:52:24.765200:  create_database()::Created database Successfully
+2022-05-27 14:52:24.785571:  create_database()::Created table Successfully
+2022-05-27 14:52:24.786568:  establish_connection()::Establishing connection
+2022-05-27 14:52:24.794676:  establish_connection()::Establishing connection
+2022-05-27 14:52:24.802738:  establish_connection()::Establishing connection
+2022-05-27 14:52:24.810795:  establish_connection()::Establishing connection
+2022-05-27 14:52:24.818763:  establish_connection()::Establishing connection
+2022-05-27 14:52:24.828764:  establish_connection()::Establishing connection
+2022-05-27 14:52:24.837771:  establish_connection()::Establishing connection
+2022-05-27 14:52:24.846086:  establish_connection()::Establishing connection
+2022-05-27 14:52:24.853947:  establish_connection()::Establishing connection
+2022-05-27 14:52:24.861952:  establish_connection()::Establishing connection
+2022-05-27 14:52:24.869967:  establish_connection()::Establishing connection
+2022-05-27 14:52:24.878339:  establish_connection()::Establishing connection
+2022-05-27 14:52:24.886328:  establish_connection()::Establishing connection
+2022-05-27 14:52:24.894430:  establish_connection()::Establishing connection
+2022-05-27 14:52:24.903159:  establish_connection()::Establishing connection
+2022-05-27 14:52:24.911153:  establish_connection()::Establishing connection
+2022-05-27 14:52:24.918150:  establish_connection()::Establishing connection
+2022-05-27 14:52:24.926154:  establish_connection()::Establishing connection
+2022-05-27 14:52:24.935159:  establish_connection()::Establishing connection
+2022-05-27 14:52:24.943139:  establish_connection()::Establishing connection
+2022-05-27 14:52:24.951151:  establish_connection()::Establishing connection
+2022-05-27 14:52:24.958151:  establish_connection()::Establishing connection
+2022-05-27 14:52:24.967142:  establish_connection()::Establishing connection
+2022-05-27 14:52:24.974139:  establish_connection()::Establishing connection
+2022-05-27 14:52:24.981141:  establish_connection()::Establishing connection
+2022-05-27 14:52:24.989141:  establish_connection()::Establishing connection
+2022-05-27 14:52:24.997142:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.004145:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.011140:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.018139:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.026141:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.033141:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.040139:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.047154:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.054150:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.062149:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.069155:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.077140:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.084152:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.091150:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.099142:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.106151:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.113154:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.121142:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.128139:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.136149:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.143149:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.150141:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.157152:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.164155:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.170148:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.177150:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.184149:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.191149:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.198003:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.203994:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.210659:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.217659:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.224655:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.231411:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.239426:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.247403:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.256159:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.263652:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.271628:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.279641:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.288661:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.295680:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.303735:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.311700:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.320065:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.327152:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.335078:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.342701:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.350715:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.358744:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.365816:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.373781:  establish_connection()::Establishing connection
+2022-05-27 14:52:25.381834:  establish_connection()::Establishing connection
+2022-05-27 14:52:31.995203:  establish_connection()::Establishing connection
+2022-05-27 14:52:50.105787:  select_and_create_input()::Created Final input file Successfully

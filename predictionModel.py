@@ -47,6 +47,7 @@ class PredictModel:
 
             inputData = self.parsed_yaml['path']['pred_input']
             data = self.clustering.cluster_prediction(inputData)
+            predictions = self.parsed_yaml['dbconnect_train']['output_table']
 
             list_of_cluster = data['clusters'].unique()
             for cluster in list_of_cluster:
@@ -54,7 +55,13 @@ class PredictModel:
                 maindf = df.drop(['clusters'], axis=1)
 
                 outcome = self.prediction.prediction(maindf, cluster)
-                outcome.to_csv(self.parsed_yaml['path']['finalPrediction']+"/"+"Output.csv")
+                self.dbop.insert_dataframe(dbname, predictions, outcome)
+            # outcome.to_csv(self.parsed_yaml['path']['finalPrediction']+"/"+"Output.csv")
+
+            # Save our final predictions into csv
+            self.dbop.select_output()
+
+            return outcome
 
         except Exception as e:
             self.logger.log(self.file_object, f"prediction_model::Error Occured, {str(e)}")

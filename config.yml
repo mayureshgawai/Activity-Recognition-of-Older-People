@@ -24,6 +24,7 @@ dbconnect_train:
   table_name: 'activity_recognition'
   pred_database: 'Prediction_Data'
   pred_table_name: 'prediction_data'
+  output_table: "predictions"
   host: 'localhost'
   user: 'root'
   password: 'root'

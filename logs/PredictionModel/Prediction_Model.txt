@@ -778,3 +778,361 @@
 2022-05-27 10:55:37.691888:  isNullPresent()::Checking if null values are present
 2022-05-27 10:55:37.691888:  deleteNullDataset()::No files to be deleted
 2022-05-27 10:55:37.699717:  prediction_model:: Let's first try to create DB in case it doesn't exists
+2022-05-27 12:54:48.253567:  prediction_model:: Start of Prediction
+2022-05-27 12:54:48.254573:  prediction_model:: Get data from db
+2022-05-27 12:54:48.254573:  Attributes validation Started
+2022-05-27 12:54:48.254573:  ::validation_attributes()
+2022-05-27 12:54:48.255574:  LengthOfDateStampInFile:8, LengthOfTimeStampInFile:6, NumberOfColumns:8, pattern:activity_01022022_120000.csv Columns:
+2022-05-27 12:54:48.255574:  Time in seconds
+2022-05-27 12:54:48.255574:  Acceleration reading in G for frontal axis
+2022-05-27 12:54:48.255574:  Acceleration reading in G for vertical axis
+2022-05-27 12:54:48.256572:  Acceleration reading in G for lateral axis
+2022-05-27 12:54:48.256572:  Id of antenna reading sensor
+2022-05-27 12:54:48.256572:  Received signal strength indicator (RSSI)
+2022-05-27 12:54:48.256572:  Phase
+2022-05-27 12:54:48.256572:  Frequency
+2022-05-27 12:54:48.257572:  File name validation according to DSA conventions is Started
+2022-05-27 12:54:48.257572:  Deleted previous training files
+2022-05-27 12:54:48.258571:  deleteTrainingData()::No files to be deleted
+2022-05-27 12:54:48.260570:  activity_21052022_052230.csv is valid and moved into validPredData
+2022-05-27 12:54:48.260570:  Columns length validation Started
+2022-05-27 12:54:48.283569:  isNullPresent()::Checking if null values are present
+2022-05-27 12:54:48.283569:  deleteNullDataset()::No files to be deleted
+2022-05-27 12:54:48.288569:  prediction_model:: Let's first try to create DB in case it doesn't exists
+2022-05-27 13:00:42.220444:  prediction_model:: Start of Prediction
+2022-05-27 13:00:42.220444:  prediction_model:: Get data from db
+2022-05-27 13:00:42.221439:  Attributes validation Started
+2022-05-27 13:00:42.221439:  ::validation_attributes()
+2022-05-27 13:00:42.221439:  LengthOfDateStampInFile:8, LengthOfTimeStampInFile:6, NumberOfColumns:8, pattern:activity_01022022_120000.csv Columns:
+2022-05-27 13:00:42.221439:  Time in seconds
+2022-05-27 13:00:42.222439:  Acceleration reading in G for frontal axis
+2022-05-27 13:00:42.222439:  Acceleration reading in G for vertical axis
+2022-05-27 13:00:42.222439:  Acceleration reading in G for lateral axis
+2022-05-27 13:00:42.222439:  Id of antenna reading sensor
+2022-05-27 13:00:42.222439:  Received signal strength indicator (RSSI)
+2022-05-27 13:00:42.223438:  Phase
+2022-05-27 13:00:42.223438:  Frequency
+2022-05-27 13:00:42.223438:  File name validation according to DSA conventions is Started
+2022-05-27 13:00:42.224446:  Deleted previous training files
+2022-05-27 13:00:42.224446:  deleteTrainingData()::No files to be deleted
+2022-05-27 13:00:42.226443:  activity_21052022_052230.csv is valid and moved into validPredData
+2022-05-27 13:00:42.226443:  Columns length validation Started
+2022-05-27 13:00:42.232441:  isNullPresent()::Checking if null values are present
+2022-05-27 13:00:42.233446:  deleteNullDataset()::No files to be deleted
+2022-05-27 13:00:42.235439:  prediction_model:: Let's first try to create DB in case it doesn't exists
+2022-05-27 13:05:53.871738:  prediction_model:: Start of Prediction
+2022-05-27 13:05:53.871738:  prediction_model:: Get data from db
+2022-05-27 13:05:53.871738:  Attributes validation Started
+2022-05-27 13:05:53.872735:  ::validation_attributes()
+2022-05-27 13:05:53.872735:  LengthOfDateStampInFile:8, LengthOfTimeStampInFile:6, NumberOfColumns:8, pattern:activity_01022022_120000.csv Columns:
+2022-05-27 13:05:53.872735:  Time in seconds
+2022-05-27 13:05:53.872735:  Acceleration reading in G for frontal axis
+2022-05-27 13:05:53.872735:  Acceleration reading in G for vertical axis
+2022-05-27 13:05:53.873736:  Acceleration reading in G for lateral axis
+2022-05-27 13:05:53.873736:  Id of antenna reading sensor
+2022-05-27 13:05:53.873736:  Received signal strength indicator (RSSI)
+2022-05-27 13:05:53.873736:  Phase
+2022-05-27 13:05:53.873736:  Frequency
+2022-05-27 13:05:53.873736:  File name validation according to DSA conventions is Started
+2022-05-27 13:05:53.874735:  Deleted previous training files
+2022-05-27 13:05:53.874735:  deleteTrainingData()::No files to be deleted
+2022-05-27 13:05:53.876735:  activity_21052022_052230.csv is valid and moved into validPredData
+2022-05-27 13:05:53.876735:  Columns length validation Started
+2022-05-27 13:05:53.882733:  isNullPresent()::Checking if null values are present
+2022-05-27 13:05:53.883737:  deleteNullDataset()::No files to be deleted
+2022-05-27 13:05:53.885736:  prediction_model:: Let's first try to create DB in case it doesn't exists
+2022-05-27 13:09:39.731596:  prediction_model:: Start of Prediction
+2022-05-27 13:09:39.732607:  prediction_model:: Get data from db
+2022-05-27 13:09:39.732607:  Attributes validation Started
+2022-05-27 13:09:39.732607:  ::validation_attributes()
+2022-05-27 13:09:39.735604:  LengthOfDateStampInFile:8, LengthOfTimeStampInFile:6, NumberOfColumns:8, pattern:activity_01022022_120000.csv Columns:
+2022-05-27 13:09:39.735604:  Time in seconds
+2022-05-27 13:09:39.735604:  Acceleration reading in G for frontal axis
+2022-05-27 13:09:39.736606:  Acceleration reading in G for vertical axis
+2022-05-27 13:09:39.736606:  Acceleration reading in G for lateral axis
+2022-05-27 13:09:39.736606:  Id of antenna reading sensor
+2022-05-27 13:09:39.737597:  Received signal strength indicator (RSSI)
+2022-05-27 13:09:39.737597:  Phase
+2022-05-27 13:09:39.737597:  Frequency
+2022-05-27 13:09:39.738611:  File name validation according to DSA conventions is Started
+2022-05-27 13:09:39.738611:  Deleted previous training files
+2022-05-27 13:09:39.739602:  deleteTrainingData()::No files to be deleted
+2022-05-27 13:09:39.742607:  activity_21052022_052230.csv is valid and moved into validPredData
+2022-05-27 13:09:39.742607:  Columns length validation Started
+2022-05-27 13:09:39.749603:  isNullPresent()::Checking if null values are present
+2022-05-27 13:09:39.749603:  deleteNullDataset()::No files to be deleted
+2022-05-27 13:09:39.752606:  prediction_model:: Let's first try to create DB in case it doesn't exists
+2022-05-27 13:14:32.028207:  prediction_model:: Start of Prediction
+2022-05-27 13:14:32.029332:  prediction_model:: Get data from db
+2022-05-27 13:14:32.030213:  Attributes validation Started
+2022-05-27 13:14:32.030213:  ::validation_attributes()
+2022-05-27 13:14:32.031217:  LengthOfDateStampInFile:8, LengthOfTimeStampInFile:6, NumberOfColumns:8, pattern:activity_01022022_120000.csv Columns:
+2022-05-27 13:14:32.031217:  Time in seconds
+2022-05-27 13:14:32.031217:  Acceleration reading in G for frontal axis
+2022-05-27 13:14:32.032205:  Acceleration reading in G for vertical axis
+2022-05-27 13:14:32.032205:  Acceleration reading in G for lateral axis
+2022-05-27 13:14:32.033215:  Id of antenna reading sensor
+2022-05-27 13:14:32.033215:  Received signal strength indicator (RSSI)
+2022-05-27 13:14:32.033215:  Phase
+2022-05-27 13:14:32.033215:  Frequency
+2022-05-27 13:14:32.034209:  File name validation according to DSA conventions is Started
+2022-05-27 13:14:32.034209:  Deleted previous training files
+2022-05-27 13:14:32.034209:  deleteTrainingData()::No files to be deleted
+2022-05-27 13:14:32.036208:  activity_21052022_052230.csv is valid and moved into validPredData
+2022-05-27 13:14:32.036208:  Columns length validation Started
+2022-05-27 13:14:32.043211:  isNullPresent()::Checking if null values are present
+2022-05-27 13:14:32.043211:  deleteNullDataset()::No files to be deleted
+2022-05-27 13:14:32.046203:  prediction_model:: Let's first try to create DB in case it doesn't exists
+2022-05-27 13:16:31.187389:  prediction_model:: Start of Prediction
+2022-05-27 13:16:31.188382:  prediction_model:: Get data from db
+2022-05-27 13:16:31.188382:  Attributes validation Started
+2022-05-27 13:16:31.189396:  ::validation_attributes()
+2022-05-27 13:16:31.189396:  LengthOfDateStampInFile:8, LengthOfTimeStampInFile:6, NumberOfColumns:8, pattern:activity_01022022_120000.csv Columns:
+2022-05-27 13:16:31.189396:  Time in seconds
+2022-05-27 13:16:31.189396:  Acceleration reading in G for frontal axis
+2022-05-27 13:16:31.190390:  Acceleration reading in G for vertical axis
+2022-05-27 13:16:31.190390:  Acceleration reading in G for lateral axis
+2022-05-27 13:16:31.190390:  Id of antenna reading sensor
+2022-05-27 13:16:31.190390:  Received signal strength indicator (RSSI)
+2022-05-27 13:16:31.191388:  Phase
+2022-05-27 13:16:31.191388:  Frequency
+2022-05-27 13:16:31.191388:  File name validation according to DSA conventions is Started
+2022-05-27 13:16:31.192380:  Deleted previous training files
+2022-05-27 13:16:31.192380:  deleteTrainingData()::No files to be deleted
+2022-05-27 13:16:31.193380:  activity_21052022_052230.csv is valid and moved into validPredData
+2022-05-27 13:16:31.193380:  Columns length validation Started
+2022-05-27 13:16:31.200375:  isNullPresent()::Checking if null values are present
+2022-05-27 13:16:31.200375:  deleteNullDataset()::No files to be deleted
+2022-05-27 13:16:31.203382:  prediction_model:: Let's first try to create DB in case it doesn't exists
+2022-05-27 13:17:20.723895:  prediction_model:: Start of Prediction
+2022-05-27 13:17:20.724709:  prediction_model:: Get data from db
+2022-05-27 13:17:20.724709:  Attributes validation Started
+2022-05-27 13:17:20.724709:  ::validation_attributes()
+2022-05-27 13:17:20.725711:  LengthOfDateStampInFile:8, LengthOfTimeStampInFile:6, NumberOfColumns:8, pattern:activity_01022022_120000.csv Columns:
+2022-05-27 13:17:20.725711:  Time in seconds
+2022-05-27 13:17:20.725711:  Acceleration reading in G for frontal axis
+2022-05-27 13:17:20.725711:  Acceleration reading in G for vertical axis
+2022-05-27 13:17:20.726715:  Acceleration reading in G for lateral axis
+2022-05-27 13:17:20.726715:  Id of antenna reading sensor
+2022-05-27 13:17:20.726715:  Received signal strength indicator (RSSI)
+2022-05-27 13:17:20.726715:  Phase
+2022-05-27 13:17:20.726715:  Frequency
+2022-05-27 13:17:20.727715:  File name validation according to DSA conventions is Started
+2022-05-27 13:17:20.727715:  Deleted previous training files
+2022-05-27 13:17:20.727715:  deleteTrainingData()::No files to be deleted
+2022-05-27 13:17:20.729709:  activity_21052022_052230.csv is valid and moved into validPredData
+2022-05-27 13:17:20.730716:  Columns length validation Started
+2022-05-27 13:17:20.740711:  isNullPresent()::Checking if null values are present
+2022-05-27 13:17:20.741711:  deleteNullDataset()::No files to be deleted
+2022-05-27 13:17:20.746718:  prediction_model:: Let's first try to create DB in case it doesn't exists
+2022-05-27 13:29:43.377895:  prediction_model:: Start of Prediction
+2022-05-27 13:29:43.377895:  prediction_model:: Get data from db
+2022-05-27 13:29:43.378896:  Attributes validation Started
+2022-05-27 13:29:43.378896:  ::validation_attributes()
+2022-05-27 13:29:43.378896:  LengthOfDateStampInFile:8, LengthOfTimeStampInFile:6, NumberOfColumns:8, pattern:activity_01022022_120000.csv Columns:
+2022-05-27 13:29:43.379907:  Time in seconds
+2022-05-27 13:29:43.379907:  Acceleration reading in G for frontal axis
+2022-05-27 13:29:43.379907:  Acceleration reading in G for vertical axis
+2022-05-27 13:29:43.380887:  Acceleration reading in G for lateral axis
+2022-05-27 13:29:43.380887:  Id of antenna reading sensor
+2022-05-27 13:29:43.380887:  Received signal strength indicator (RSSI)
+2022-05-27 13:29:43.380887:  Phase
+2022-05-27 13:29:43.381899:  Frequency
+2022-05-27 13:29:43.381899:  File name validation according to DSA conventions is Started
+2022-05-27 13:29:43.382899:  Deleted previous training files
+2022-05-27 13:29:43.382899:  deleteTrainingData()::No files to be deleted
+2022-05-27 13:29:43.385900:  activity_21052022_052230.csv is valid and moved into validPredData
+2022-05-27 13:29:43.385900:  Columns length validation Started
+2022-05-27 13:29:43.408586:  isNullPresent()::Checking if null values are present
+2022-05-27 13:29:43.408586:  deleteNullDataset()::No files to be deleted
+2022-05-27 13:29:43.414591:  prediction_model:: Let's first try to create DB in case it doesn't exists
+2022-05-27 13:29:43.658478:  prediction_model::Error Occured, local variable 'mydb' referenced before assignment
+2022-05-27 13:31:52.362104:  prediction_model:: Start of Prediction
+2022-05-27 13:31:53.920910:  prediction_model:: Get data from db
+2022-05-27 13:31:54.515795:  Attributes validation Started
+2022-05-27 13:31:54.516820:  ::validation_attributes()
+2022-05-27 13:31:54.516820:  LengthOfDateStampInFile:8, LengthOfTimeStampInFile:6, NumberOfColumns:8, pattern:activity_01022022_120000.csv Columns:
+2022-05-27 13:31:54.517821:  Time in seconds
+2022-05-27 13:31:54.517821:  Acceleration reading in G for frontal axis
+2022-05-27 13:31:54.517821:  Acceleration reading in G for vertical axis
+2022-05-27 13:31:54.517821:  Acceleration reading in G for lateral axis
+2022-05-27 13:31:54.517821:  Id of antenna reading sensor
+2022-05-27 13:31:54.518818:  Received signal strength indicator (RSSI)
+2022-05-27 13:31:54.518818:  Phase
+2022-05-27 13:31:54.518818:  Frequency
+2022-05-27 13:31:57.824857:  File name validation according to DSA conventions is Started
+2022-05-27 13:31:57.825848:  Deleted previous training files
+2022-05-27 13:31:57.826843:  deleteTrainingData()::No files to be deleted
+2022-05-27 13:31:57.828844:  activity_21052022_052230.csv is valid and moved into validPredData
+2022-05-27 13:31:58.400066:  Columns length validation Started
+2022-05-27 13:31:59.911575:  isNullPresent()::Checking if null values are present
+2022-05-27 13:31:59.912596:  deleteNullDataset()::No files to be deleted
+2022-05-27 13:32:02.364223:  prediction_model:: Let's first try to create DB in case it doesn't exists
+2022-05-27 13:33:47.124756:  prediction_model:: Start of Prediction
+2022-05-27 13:33:48.147889:  prediction_model:: Get data from db
+2022-05-27 13:33:48.884281:  Attributes validation Started
+2022-05-27 13:33:48.885197:  ::validation_attributes()
+2022-05-27 13:33:48.885197:  LengthOfDateStampInFile:8, LengthOfTimeStampInFile:6, NumberOfColumns:8, pattern:activity_01022022_120000.csv Columns:
+2022-05-27 13:33:48.885197:  Time in seconds
+2022-05-27 13:33:48.886194:  Acceleration reading in G for frontal axis
+2022-05-27 13:33:48.886194:  Acceleration reading in G for vertical axis
+2022-05-27 13:33:48.886194:  Acceleration reading in G for lateral axis
+2022-05-27 13:33:48.886194:  Id of antenna reading sensor
+2022-05-27 13:33:48.886194:  Received signal strength indicator (RSSI)
+2022-05-27 13:33:48.887196:  Phase
+2022-05-27 13:33:48.887196:  Frequency
+2022-05-27 13:33:50.013864:  File name validation according to DSA conventions is Started
+2022-05-27 13:33:50.014768:  Deleted previous training files
+2022-05-27 13:33:50.014768:  deleteTrainingData()::No files to be deleted
+2022-05-27 13:33:50.016771:  activity_21052022_052230.csv is valid and moved into validPredData
+2022-05-27 13:33:50.510896:  Columns length validation Started
+2022-05-27 13:33:51.559995:  isNullPresent()::Checking if null values are present
+2022-05-27 13:33:51.561006:  deleteNullDataset()::No files to be deleted
+2022-05-27 13:33:54.779179:  prediction_model:: Let's first try to create DB in case it doesn't exists
+2022-05-27 13:35:39.099960:  prediction_model:: Start of Prediction
+2022-05-27 13:35:39.540178:  prediction_model:: Get data from db
+2022-05-27 13:35:39.994407:  Attributes validation Started
+2022-05-27 13:35:39.995239:  ::validation_attributes()
+2022-05-27 13:35:39.995239:  LengthOfDateStampInFile:8, LengthOfTimeStampInFile:6, NumberOfColumns:8, pattern:activity_01022022_120000.csv Columns:
+2022-05-27 13:35:39.995239:  Time in seconds
+2022-05-27 13:35:39.996225:  Acceleration reading in G for frontal axis
+2022-05-27 13:35:39.996225:  Acceleration reading in G for vertical axis
+2022-05-27 13:35:39.996225:  Acceleration reading in G for lateral axis
+2022-05-27 13:35:39.996225:  Id of antenna reading sensor
+2022-05-27 13:35:39.996225:  Received signal strength indicator (RSSI)
+2022-05-27 13:35:39.997239:  Phase
+2022-05-27 13:35:39.997239:  Frequency
+2022-05-27 13:35:40.962427:  File name validation according to DSA conventions is Started
+2022-05-27 13:35:40.963428:  Deleted previous training files
+2022-05-27 13:35:40.963428:  deleteTrainingData()::No files to be deleted
+2022-05-27 13:35:40.965427:  activity_21052022_052230.csv is valid and moved into validPredData
+2022-05-27 13:35:41.508264:  Columns length validation Started
+2022-05-27 13:35:42.653806:  isNullPresent()::Checking if null values are present
+2022-05-27 13:35:42.654802:  deleteNullDataset()::No files to be deleted
+2022-05-27 13:35:44.548908:  prediction_model:: Let's first try to create DB in case it doesn't exists
+2022-05-27 14:18:16.096737:  prediction_model:: Start of Prediction
+2022-05-27 14:18:17.622134:  prediction_model:: Get data from db
+2022-05-27 14:18:18.242355:  Attributes validation Started
+2022-05-27 14:18:18.243354:  ::validation_attributes()
+2022-05-27 14:18:18.243354:  LengthOfDateStampInFile:8, LengthOfTimeStampInFile:6, NumberOfColumns:8, pattern:activity_01022022_120000.csv Columns:
+2022-05-27 14:18:18.244351:  Time in seconds
+2022-05-27 14:18:18.244351:  Acceleration reading in G for frontal axis
+2022-05-27 14:18:18.244351:  Acceleration reading in G for vertical axis
+2022-05-27 14:18:18.245343:  Acceleration reading in G for lateral axis
+2022-05-27 14:18:18.245343:  Id of antenna reading sensor
+2022-05-27 14:18:18.245343:  Received signal strength indicator (RSSI)
+2022-05-27 14:18:18.245343:  Phase
+2022-05-27 14:18:18.245343:  Frequency
+2022-05-27 14:18:21.718314:  File name validation according to DSA conventions is Started
+2022-05-27 14:18:21.719317:  Deleted previous training files
+2022-05-27 14:18:21.720314:  deleteTrainingData()::No files to be deleted
+2022-05-27 14:18:21.722312:  activity_21052022_052230.csv is valid and moved into validPredData
+2022-05-27 14:18:22.889364:  Columns length validation Started
+2022-05-27 14:18:24.174744:  isNullPresent()::Checking if null values are present
+2022-05-27 14:18:24.174744:  deleteNullDataset()::No files to be deleted
+2022-05-27 14:18:27.096212:  prediction_model:: Let's first try to create DB in case it doesn't exists
+2022-05-27 14:22:45.921502:  prediction_model:: Start of Prediction
+2022-05-27 14:22:46.392460:  prediction_model:: Get data from db
+2022-05-27 14:22:46.828706:  Attributes validation Started
+2022-05-27 14:22:46.829537:  ::validation_attributes()
+2022-05-27 14:22:46.829537:  LengthOfDateStampInFile:8, LengthOfTimeStampInFile:6, NumberOfColumns:8, pattern:activity_01022022_120000.csv Columns:
+2022-05-27 14:22:46.830533:  Time in seconds
+2022-05-27 14:22:46.830533:  Acceleration reading in G for frontal axis
+2022-05-27 14:22:46.830533:  Acceleration reading in G for vertical axis
+2022-05-27 14:22:46.830533:  Acceleration reading in G for lateral axis
+2022-05-27 14:22:46.830533:  Id of antenna reading sensor
+2022-05-27 14:22:46.830533:  Received signal strength indicator (RSSI)
+2022-05-27 14:22:46.831537:  Phase
+2022-05-27 14:22:46.831537:  Frequency
+2022-05-27 14:22:49.532551:  File name validation according to DSA conventions is Started
+2022-05-27 14:22:49.534567:  Deleted previous training files
+2022-05-27 14:22:49.535563:  deleteTrainingData()::No files to be deleted
+2022-05-27 14:22:49.537639:  activity_21052022_052230.csv is valid and moved into validPredData
+2022-05-27 14:22:50.001533:  Columns length validation Started
+2022-05-27 14:22:50.783534:  isNullPresent()::Checking if null values are present
+2022-05-27 14:22:50.783534:  deleteNullDataset()::No files to be deleted
+2022-05-27 14:22:53.578113:  prediction_model:: Let's first try to create DB in case it doesn't exists
+2022-05-27 14:24:22.923519:  prediction_model:: Start of Prediction
+2022-05-27 14:24:23.391682:  prediction_model:: Get data from db
+2022-05-27 14:24:23.842202:  Attributes validation Started
+2022-05-27 14:24:23.843220:  ::validation_attributes()
+2022-05-27 14:24:23.843220:  LengthOfDateStampInFile:8, LengthOfTimeStampInFile:6, NumberOfColumns:8, pattern:activity_01022022_120000.csv Columns:
+2022-05-27 14:24:23.843220:  Time in seconds
+2022-05-27 14:24:23.843220:  Acceleration reading in G for frontal axis
+2022-05-27 14:24:23.844219:  Acceleration reading in G for vertical axis
+2022-05-27 14:24:23.844219:  Acceleration reading in G for lateral axis
+2022-05-27 14:24:23.844219:  Id of antenna reading sensor
+2022-05-27 14:24:23.844219:  Received signal strength indicator (RSSI)
+2022-05-27 14:24:23.844219:  Phase
+2022-05-27 14:24:23.845223:  Frequency
+2022-05-27 14:24:25.235357:  File name validation according to DSA conventions is Started
+2022-05-27 14:24:25.237356:  Deleted previous training files
+2022-05-27 14:24:25.237356:  deleteTrainingData()::No files to be deleted
+2022-05-27 14:24:25.239356:  activity_21052022_052230.csv is valid and moved into validPredData
+2022-05-27 14:24:25.814293:  Columns length validation Started
+2022-05-27 14:24:27.393090:  isNullPresent()::Checking if null values are present
+2022-05-27 14:24:27.393090:  deleteNullDataset()::No files to be deleted
+2022-05-27 14:24:29.624121:  prediction_model:: Let's first try to create DB in case it doesn't exists
+2022-05-27 14:44:11.157284:  prediction_model:: Start of Prediction
+2022-05-27 14:44:13.015069:  prediction_model:: Get data from db
+2022-05-27 14:44:13.700552:  Attributes validation Started
+2022-05-27 14:44:13.701553:  ::validation_attributes()
+2022-05-27 14:44:13.701553:  LengthOfDateStampInFile:8, LengthOfTimeStampInFile:6, NumberOfColumns:8, pattern:activity_01022022_120000.csv Columns:
+2022-05-27 14:44:13.702554:  Time in seconds
+2022-05-27 14:44:13.702554:  Acceleration reading in G for frontal axis
+2022-05-27 14:44:13.702554:  Acceleration reading in G for vertical axis
+2022-05-27 14:44:13.702554:  Acceleration reading in G for lateral axis
+2022-05-27 14:44:13.703542:  Id of antenna reading sensor
+2022-05-27 14:44:13.703542:  Received signal strength indicator (RSSI)
+2022-05-27 14:44:13.703542:  Phase
+2022-05-27 14:44:13.703542:  Frequency
+2022-05-27 14:44:14.577579:  File name validation according to DSA conventions is Started
+2022-05-27 14:44:14.579366:  Deleted previous training files
+2022-05-27 14:44:14.579366:  deleteTrainingData()::No files to be deleted
+2022-05-27 14:44:14.582374:  activity_21052022_052230.csv is valid and moved into validPredData
+2022-05-27 14:44:15.013702:  Columns length validation Started
+2022-05-27 14:44:16.293611:  isNullPresent()::Checking if null values are present
+2022-05-27 14:44:16.294491:  deleteNullDataset()::No files to be deleted
+2022-05-27 14:44:17.868945:  prediction_model:: Let's first try to create DB in case it doesn't exists
+2022-05-27 14:46:59.729603:  prediction_model:: Start of Prediction
+2022-05-27 14:47:00.135066:  prediction_model:: Get data from db
+2022-05-27 14:47:00.539823:  Attributes validation Started
+2022-05-27 14:47:00.540825:  ::validation_attributes()
+2022-05-27 14:47:00.540825:  LengthOfDateStampInFile:8, LengthOfTimeStampInFile:6, NumberOfColumns:8, pattern:activity_01022022_120000.csv Columns:
+2022-05-27 14:47:00.540825:  Time in seconds
+2022-05-27 14:47:00.540825:  Acceleration reading in G for frontal axis
+2022-05-27 14:47:00.541833:  Acceleration reading in G for vertical axis
+2022-05-27 14:47:00.541833:  Acceleration reading in G for lateral axis
+2022-05-27 14:47:00.541833:  Id of antenna reading sensor
+2022-05-27 14:47:00.541833:  Received signal strength indicator (RSSI)
+2022-05-27 14:47:00.541833:  Phase
+2022-05-27 14:47:00.541833:  Frequency
+2022-05-27 14:47:02.091339:  File name validation according to DSA conventions is Started
+2022-05-27 14:47:02.091339:  Deleted previous training files
+2022-05-27 14:47:02.092334:  deleteTrainingData()::No files to be deleted
+2022-05-27 14:47:02.093337:  activity_21052022_052230.csv is valid and moved into validPredData
+2022-05-27 14:47:02.610235:  Columns length validation Started
+2022-05-27 14:47:04.858183:  isNullPresent()::Checking if null values are present
+2022-05-27 14:47:04.859007:  deleteNullDataset()::No files to be deleted
+2022-05-27 14:47:05.641987:  prediction_model:: Let's first try to create DB in case it doesn't exists
+2022-05-27 14:51:59.169569:  prediction_model:: Start of Prediction
+2022-05-27 14:51:59.989463:  prediction_model:: Get data from db
+2022-05-27 14:52:01.937143:  Attributes validation Started
+2022-05-27 14:52:01.938144:  ::validation_attributes()
+2022-05-27 14:52:01.938144:  LengthOfDateStampInFile:8, LengthOfTimeStampInFile:6, NumberOfColumns:8, pattern:activity_01022022_120000.csv Columns:
+2022-05-27 14:52:01.939133:  Time in seconds
+2022-05-27 14:52:01.939133:  Acceleration reading in G for frontal axis
+2022-05-27 14:52:01.939133:  Acceleration reading in G for vertical axis
+2022-05-27 14:52:01.940139:  Acceleration reading in G for lateral axis
+2022-05-27 14:52:01.940139:  Id of antenna reading sensor
+2022-05-27 14:52:01.940139:  Received signal strength indicator (RSSI)
+2022-05-27 14:52:01.940139:  Phase
+2022-05-27 14:52:01.940139:  Frequency
+2022-05-27 14:52:03.174592:  File name validation according to DSA conventions is Started
+2022-05-27 14:52:03.175417:  Deleted previous training files
+2022-05-27 14:52:03.176412:  deleteTrainingData()::No files to be deleted
+2022-05-27 14:52:03.177412:  activity_21052022_052230.csv is valid and moved into validPredData
+2022-05-27 14:52:05.379140:  Columns length validation Started
+2022-05-27 14:52:06.631235:  isNullPresent()::Checking if null values are present
+2022-05-27 14:52:06.632232:  deleteNullDataset()::No files to be deleted
+2022-05-27 14:52:07.866299:  prediction_model:: Let's first try to create DB in case it doesn't exists

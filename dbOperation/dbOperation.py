@@ -8,7 +8,7 @@ import sqlite3
 import mysql.connector as connection
 import pandas as pd
 import json
-
+from datetime import datetime
 class DBOperation:
     def __init__(self):
         self.parsed_yaml = yaml.load(open('./config.yml'), Loader=yaml.FullLoader)
@@ -56,19 +56,17 @@ class DBOperation:
             if (operation == 'prediction'):
                 inputPath = self.parsed_yaml['path']['pred_input']
                 dbname = self.parsed_yaml['dbconnect_train']['pred_database']
-            elif(operation == 'training'):
+            elif(operation == 'training/output'):
                 inputPath = self.parsed_yaml['path']['inputs']
 
             # Removing previously existing files
             for file in os.listdir(inputPath):
                 os.remove(inputPath+"/"+file)
 
-            # dbname = self.parsed_yaml['dbconnect_train']['database_name']
             mydb = self.establish_connection(self.host, self.user, self.passwd)
             query = 'select * from '+dbname+"."+str(table_name)
-            # cursor = mydb.cursor()
-            # cursor.execute(query)
             objects = pd.read_sql(query, mydb)
+
             objects.to_csv(str(inputPath)+"/"+"InputFile.csv")
             self.logger.log(self.file_object, "select_and_create_input()::Created Final input file Successfully")
         except Exception as e:
@@ -113,7 +111,7 @@ class DBOperation:
 
             # In case database doesn't exists
             self.create_database(dbname)
-            if (operation == 'training'):
+            if (operation == 'training/output'):
                 query = 'create table IF NOT EXISTS '+dbname+"."+tableName+'(`Time in seconds` float4, `Acceleration reading in G for frontal axis` float4, ' \
                                                             '`Acceleration reading in G for vertical axis` float4,' \
                                                             '`Acceleration reading in G for lateral axis` float4,' \
@@ -133,6 +131,38 @@ class DBOperation:
         except Exception as e:
             self.logger.log(self.file_object, "create_database()::Error occurred in creating table. "+str(e))
 
+    def select_output(self):
+        try:
+            table_name = self.parsed_yaml['dbconnect_train']['output_table']
+            dbname = self.parsed_yaml['dbconnect_train']['pred_database']
+            path = self.parsed_yaml['path']['finalPrediction']
+
+            mydb = self.establish_connection(self.host, self.user, self.passwd)
+            query = 'select * from ' + dbname + "." + str(table_name)
+            objects = pd.read_sql(query, mydb)
+
+            objects.to_csv(str(path) + "/" + "OutputFile"+".csv")
+            self.logger.log(self.file_object, "select_and_create_input()::Created Final input file Successfully")
+        except Exception as e:
+            self.logger.log(self.file_object, "select_output::Error occurred, "+str(e))
+
+    def insert_dataframe(self, dbname, tblname, df):
+
+        self.create_table(dbname, tblname, 'training/output')
+
+        try:
+            for row in df.values:
+                rec = ','.join([str(x) for x in row])
+                # rec = str(row)[1:-1]
+                mydb = self.establish_connection(self.host, self.user, self.passwd)
+                query = 'insert into '+dbname+"."+tblname+" values("+str(rec)+")"
+                cursor = mydb.cursor()
+                cursor.execute(query)
+                mydb.commit()
+
+        except Exception as e:
+            self.logger.log(self.file_object, "insert_dataframe::"+str(e))
+
 
     def insertIntoDB(self, dbname, tblname, operation):
         '''
@@ -146,10 +176,14 @@ class DBOperation:
 
             if(operation == 'prediction'):
                 path = self.parsed_yaml['path']['pred_validData']
-            elif(operation == 'training'):
+            elif(operation == 'training/output'):
                 path = self.parsed_yaml['path']['validData']
             else:
                 return
+
+            # In case if table doesn't exists
+            self.create_table(dbname, tblname, 'training/output')
+
 
             files = [f for f in os.listdir(path)]
             # tblname = self.parsed_yaml['dbconnect_train']['table_name']

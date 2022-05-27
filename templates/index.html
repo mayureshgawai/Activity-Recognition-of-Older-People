@@ -4,11 +4,59 @@
     <title>Activity Recognition</title>
     <meta charset="UTF-8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </head>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 <body>
 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Activity Recognition</a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  </div>
+</nav>
+<br>
+<br>
+
+<form action="/train" method="POST">
+
+<div class="input-group mb-3">
+  <input type="text" id="path" name="path" class="col-lg-6 mx-auto" class="form-control" placeholder="path" aria-label="Recipient's username" aria-describedby="basic-addon2">
+    <div class="input-group-append">
+  </div>
+</div>
+
+<div class="text-center">
+<button type="submit" class="btn btn-primary">Train Model</button>
+    </div>
+</form>
+<br>
+<form action="/predict" method="POST">
+    <div class="text-center">
+    <button type="submit" class="btn btn-primary" >Predict</button>
+    </div>
+</form>
+<div>
+
+<!--    {% for table in tables %}-->
+<!--            {{titles[loop.index]}}-->
+<!--            {{ table|safe }}-->
+<!--    {% endfor %}-->
+
+    <table>
+        <tr>
+            {% for col in column_names %}
+            <th>{{col}}</th>
+            {%endfor%}
+        </tr>
+        <tr>
+            {% for row in row_data %}
+            <th>{{row}}</th>
+            {%endfor%}
+        </tr>
+    </table>
+
+
+</div>
 
 </body>
 

@@ -14,7 +14,7 @@ from Tuner.tuner import Model_Finder
 from file_operations.file_opr import File_Operations
 
 class TrainValModel:
-    def __init__(self, path):
+    def __init__(self):
         self.valid_data = Data_Validation()
         self.logger = logger.Logger()
         self.file_object = "logs/training_val_logs/TrainingAndValidationLogs.txt"
@@ -60,13 +60,13 @@ class TrainValModel:
             trainPath = self.parsed_yaml['path']['validData']
 
             # Create database
-            self.dbOperation.create_database(dbname, 'training')
+            self.dbOperation.create_database(dbname, 'training/output')
             # Create table
             self.dbOperation.create_table(dbname, tblname)
             # It will take files from valid data directory and insert into db.
-            self.dbOperation.insertIntoDB(dbname, tblname, 'training')
+            self.dbOperation.insertIntoDB(dbname, tblname, 'training/output')
             # It will select values from table and create final input file
-            self.dbOperation.select_and_create_input(tblname, 'training')
+            self.dbOperation.select_and_create_input(tblname, 'training/output')
             self.logger.log(self.file_object, "train_val_data()::DB operations Completed.")
 
             input = self.parsed_yaml['path']['inputs']
