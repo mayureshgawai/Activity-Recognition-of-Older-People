@@ -15,7 +15,12 @@ kneed==0.5.1
 MarkupSafe==1.1.1
 matplotlib==3.1.2
 more-itertools==8.1.0
-numpy==1.18.1
+gitdb==4.0.9
+GitPython==3.1.27
+grpcio==1.42.0
+gunicorn==20.1.0
+numpy
+pyproject-toml
 pandas==0.25.3
 pyparsing==2.4.6
 pyrsistent==0.15.7
