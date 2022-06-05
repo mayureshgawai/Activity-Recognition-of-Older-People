@@ -360,3 +360,27 @@
 2022-05-27 16:59:19.964191:  Data Validation is done
 2022-05-27 17:00:20.328694:  train_val_data()::Data Processing Ends here.
 2022-05-27 17:00:21.969648:  train_val_data()::DB operation starts.
+2022-06-01 15:48:23.008724:  train_val_model()::Entered into Validation method
+2022-06-01 15:48:23.008995:  Attributes validation Started
+2022-06-01 15:48:23.008995:  ::validation_attributes()
+2022-06-01 15:48:23.010018:  LengthOfDateStampInFile:8, LengthOfTimeStampInFile:6, NumberOfColumns:9, pattern:activity_01022022_120000.csv Columns:
+2022-06-01 15:48:23.011021:  Time in seconds
+2022-06-01 15:48:23.011021:  Acceleration reading in G for frontal axis
+2022-06-01 15:48:23.011021:  Acceleration reading in G for vertical axis
+2022-06-01 15:48:23.011021:  Acceleration reading in G for lateral axis
+2022-06-01 15:48:23.012021:  Id of antenna reading sensor
+2022-06-01 15:48:23.012021:  Received signal strength indicator (RSSI)
+2022-06-01 15:48:23.012021:  Phase
+2022-06-01 15:48:23.012021:  Frequency
+2022-06-01 15:48:23.013023:  Label
+2022-06-01 15:48:23.013023:  File name validation according to DSA conventions is Started
+2022-06-01 15:48:23.013023:  deleteTrainingData()::No files to be deleted
+2022-06-01 15:48:23.014019:  deleteTrainingData()::No files to be deleted
+2022-06-01 15:48:23.032018:  activity_21052022_052220.csv is valid and moved into validTrainingData
+2022-06-01 15:48:23.032018:  Columns length validation Started
+2022-06-01 15:48:23.111009:  train_val_model():column_length_validation()::Validation of Column length, name and dtype is done!
+2022-06-01 15:48:23.178016:  train_val_model():validate_missing_values_in_columnn()::Missing whole column values validation performed!
+2022-06-01 15:48:23.178016:  Data Validation is done
+2022-06-01 15:48:23.245019:  train_val_data()::Data Processing Ends here.
+2022-06-01 15:48:23.246020:  train_val_data()::DB operation starts.
+2022-06-01 15:53:40.224564:  train_val_data()::DB operations Completed.

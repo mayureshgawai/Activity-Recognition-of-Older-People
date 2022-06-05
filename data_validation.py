@@ -8,9 +8,16 @@ import json
 import yaml
 import pandas as pd
 
+ROOT_DIR = os.getcwd()
+LOG_DIR = os.path.join(ROOT_DIR, "logs", "traning_val_logs")
+LOG_FILE_NAME = "TrainingAndValidationLogs.txt"
+LOG_FILE_PATH = os.path.join(LOG_DIR, LOG_FILE_NAME)
+
+
 class Data_Validation:
     def __init__(self):
-        self.file_object = "logs/training_val_logs/TrainingAndValidationLogs.txt"
+        os.makedirs(LOG_DIR, exist_ok=True)
+        self.file_object = LOG_FILE_PATH
         self.logger = logger.Logger()
         self.parsed_yaml = yaml.load(open('config.yml'), Loader=yaml.FullLoader)
 
@@ -34,8 +41,10 @@ class Data_Validation:
             colNames = attr['ColName']
             prefix = attr['prefix']
 
-
-            self.logger.log(self.file_object, "LengthOfDateStampInFile:"+str(LengthOfDateStampInFile)+", LengthOfTimeStampInFile:"+str(LengthOfTimeStampInFile)+", NumberOfColumns:"+str(NumberOfColumns)+", pattern:"+pattern+" Columns:")
+            self.logger.log(self.file_object, "LengthOfDateStampInFile:" + str(
+                LengthOfDateStampInFile) + ", LengthOfTimeStampInFile:" + str(
+                LengthOfTimeStampInFile) + ", NumberOfColumns:" + str(
+                NumberOfColumns) + ", pattern:" + pattern + " Columns:")
             for names in colNames:
                 self.logger.log(self.file_object, names)
 
@@ -51,7 +60,6 @@ class Data_Validation:
         '''
         regex = "['activity']+['\_'']+[\d_]+[\d]+\.csv"
         return regex
-
 
     def check_file_name(self, regex, LengthOfDateStampInFile, LengthOfTimeStampInFile, prefix):
 
@@ -78,27 +86,28 @@ class Data_Validation:
                 raise EmptyDirectoryError()
 
             for filename in files:
-                if(re.match(regex, filename)):
+                if (re.match(regex, filename)):
                     dotsplit = re.split('.csv', filename)
                     usrsplit = re.split('_', dotsplit[0])
-                    if(usrsplit[0] == prefix):
+                    if (usrsplit[0] == prefix):
                         len1 = len(usrsplit[1])
                         len2 = len(usrsplit[2])
-                        if((len(usrsplit[1]) == LengthOfDateStampInFile) and (len(usrsplit[2]) == LengthOfTimeStampInFile)):
-                            shutil.copy(str(trainPath) +"/"+ filename, 'TrainingDataSet/validTrainingData')
-                            self.logger.log(self.file_object, filename+" is valid and moved into validTrainingData")
+                        if ((len(usrsplit[1]) == LengthOfDateStampInFile) and (
+                                len(usrsplit[2]) == LengthOfTimeStampInFile)):
+                            shutil.copy(str(trainPath) + "/" + filename, 'TrainingDataSet/validTrainingData')
+                            self.logger.log(self.file_object, filename + " is valid and moved into validTrainingData")
                         else:
                             shutil.copy(str(trainPath) + filename, 'TrainingDataSet/invalidTrainingData')
-                            self.logger.log(self.file_object, filename + " is invalid and moved into invalidTrainingData")
+                            self.logger.log(self.file_object,
+                                            filename + " is invalid and moved into invalidTrainingData")
                     else:
                         shutil.copy(str(trainPath) + filename, 'TrainingDataSet/invalidTrainingData')
                         self.logger.log(self.file_object, filename + " is invalid and moved into invalidTrainingData")
 
         except EmptyDirectoryError as e:
-            self.logger.log(self.file_object, "Exception: check_file_name():"+str(e))
+            self.logger.log(self.file_object, "Exception: check_file_name():" + str(e))
         except Exception as e:
             print(e)
-
 
     def deleteTrainingData(self, filelist, path):
         '''
@@ -107,18 +116,18 @@ class Data_Validation:
             params: filelist, path:
             '''
         try:
-            if len(filelist)==0:
+            if len(filelist) == 0:
                 self.logger.log(self.file_object, "deleteTrainingData()::No files to be deleted")
                 return
             for files in filelist:
-                os.remove(path+"/"+files)
+                os.remove(path + "/" + files)
             self.logger.log(self.file_object, "Deleted previous training files")
         except Exception as e:
             self.logger.log(self.file_object, str(e))
 
     def column_length_validation(self):
 
-        self.logger.log(self.file_object,"Columns length validation Started")
+        self.logger.log(self.file_object, "Columns length validation Started")
 
         '''
             Method Name: column_length_validation()
@@ -126,7 +135,6 @@ class Data_Validation:
             param:
             return:
         '''
-
 
         try:
             trainPath = self.parsed_yaml['path']['validData']
@@ -140,14 +148,14 @@ class Data_Validation:
 
             for filename in files:
                 colLength = data['NumberOfColumns']
-                df = pd.read_csv(trainPath+"/"+filename)
+                df = pd.read_csv(trainPath + "/" + filename)
 
                 # To drop all unnecessary columns
                 for cols in df.columns:
                     if (cols.find('Unnamed') != -1):
                         df.drop(columns=[cols], inplace=True)
 
-                if(df.shape[1] == colLength):
+                if (df.shape[1] == colLength):
                     columns = df.dtypes
                     sc_columns = data['ColName']
 
@@ -155,9 +163,9 @@ class Data_Validation:
                     counter = 1
                     for col in columns.index:
                         sc_columns[col]
-                        if(str(df[col].dtypes) == sc_columns[col]):
+                        if (str(df[col].dtypes) == sc_columns[col]):
                             # If counter reaches to shape[1], that means we have gone through all the columns and now it should be moved to valid folder
-                            if(counter == df.shape[1]):
+                            if (counter == df.shape[1]):
                                 return
 
                             else:
@@ -165,11 +173,13 @@ class Data_Validation:
                                 continue
                         else:
                             shutil.move(str(trainPath) + filename, 'TrainingDataSet/invalidTrainingData')
-                            self.logger.log(self.file_object,filename + " is invalid for column and moved into invalidTrainingData")
+                            self.logger.log(self.file_object,
+                                            filename + " is invalid for column and moved into invalidTrainingData")
                             break
                 else:
                     shutil.move(str(trainPath) + filename, 'TrainingDataSet/invalidTrainingData')
-                    self.logger.log(self.file_object, filename + " is invalid for column length and moved into invalidTrainingData")
+                    self.logger.log(self.file_object,
+                                    filename + " is invalid for column length and moved into invalidTrainingData")
 
         except KeyError as e:
             print(e)
@@ -177,7 +187,6 @@ class Data_Validation:
             self.logger.log(self.file_object, str(e))
         except Exception as e:
             self.logger.log(self.file_object, str(e.args))
-
 
     def validate_missing_values_in_whole_columnn(self):
 
@@ -205,10 +214,10 @@ class Data_Validation:
                 cols = df.columns
 
                 for col in cols:
-                    if((len(df[col]) - df[col].count()) == len(df[col])):
-
+                    if ((len(df[col]) - df[col].count()) == len(df[col])):
                         shutil.move(str(trainPath) + filename, 'TrainingDataSet/invalidTrainingData')
-                        self.logger.log(self.file_object,filename + " is invalid for column and moved into invalidTrainingData")
+                        self.logger.log(self.file_object,
+                                        filename + " is invalid for column and moved into invalidTrainingData")
                         break
 
         except EmptyDirectoryError as e:

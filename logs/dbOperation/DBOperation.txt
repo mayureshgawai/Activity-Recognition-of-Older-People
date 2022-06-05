@@ -812,3 +812,24 @@
 2022-05-27 14:52:25.381834:  establish_connection()::Establishing connection
 2022-05-27 14:52:31.995203:  establish_connection()::Establishing connection
 2022-05-27 14:52:50.105787:  select_and_create_input()::Created Final input file Successfully
+2022-06-01 15:48:23.246020:  create_database()::Create database
+2022-06-01 15:48:23.246020:  establish_connection()::Establishing connection
+2022-06-01 15:48:23.415037:  create_database()::Created database Successfully
+2022-06-01 15:48:23.418033:  create_database()::Create table
+2022-06-01 15:48:23.419038:  establish_connection()::Establishing connection
+2022-06-01 15:48:23.430034:  create_database()::Create database
+2022-06-01 15:48:23.431028:  establish_connection()::Establishing connection
+2022-06-01 15:48:23.443031:  create_database()::Created database Successfully
+2022-06-01 15:48:23.498030:  create_database()::Created table Successfully
+2022-06-01 15:48:23.500037:  insertIntoDB()::Insert values in database
+2022-06-01 15:48:23.500037:  create_database()::Create table
+2022-06-01 15:48:23.500037:  establish_connection()::Establishing connection
+2022-06-01 15:48:23.506030:  create_database()::Create database
+2022-06-01 15:48:23.507034:  establish_connection()::Establishing connection
+2022-06-01 15:48:23.515033:  create_database()::Created database Successfully
+2022-06-01 15:48:23.527034:  create_database()::Created table Successfully
+2022-06-01 15:48:23.528035:  establish_connection()::Establishing connection
+2022-06-01 15:53:40.212567:  insertIntoDB()::Inserted values in database Successfully
+2022-06-01 15:53:40.213572:  select_and_create_input()::csv creation started
+2022-06-01 15:53:40.214577:  establish_connection()::Establishing connection
+2022-06-01 15:53:40.224564:  select_and_create_input()::Error occured in execution, local variable 'dbname' referenced before assignment
